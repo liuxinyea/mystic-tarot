@@ -62,7 +62,10 @@ export default defineNuxtConfig({
     transpile: ['gsap', 'three', '@tresjs/client'],
   },
   nitro: {
-    preset: 'github-pages'
+    preset: 'github-pages',
+    output: {
+      dir: '.output/mystic-tarot'
+    }
   },
   // TresJS uses client-only rendering
   vite: {

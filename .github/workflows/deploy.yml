@@ -43,13 +43,13 @@ jobs:
         run: pnpm nuxi generate
 
       - name: Add .nojekyll
-        run: touch .output/public/.nojekyll
+        run: touch .output/mystic-tarot/public/.nojekyll
 
       # 明确指定上传，不使用自定义名称以适配 Pages 规范
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: .output/mystic-tarot/public
 
       - name: Deploy to GitHub Pages
         id: deployment
