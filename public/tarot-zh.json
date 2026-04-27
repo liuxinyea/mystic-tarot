@@ -1,0 +1,3078 @@
+{
+  "_description": "塔罗牌中文数据 — 含义、关键词与占卜提示的地道中文适配",
+  "_version": "1.0.0",
+  "_total": 78,
+  "cards": [
+    {
+      "name": "愚者",
+      "number": "0",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m00.jpg",
+      "fortune_telling": [
+        "新的旅程正向你招手，以轻盈之心迈出第一步",
+        "以信念代替确定，向未知勇敢一跃"
+      ],
+      "keywords": [
+        "自由",
+        "天真",
+        "信念",
+        "冒险"
+      ],
+      "meanings": {
+        "light": [
+          "挣脱束缚，拥抱无限可能",
+          "以赤子之心和充沛活力面对生活",
+          "聆听内心直觉，顺从本能的指引",
+          "带着好奇心勇于探索未知领域",
+          "张开双臂迎接革新与变化"
+        ],
+        "shadow": [
+          "轻信他人，缺乏辨别能力",
+          "在不必要的情况下冒险",
+          "举止轻浮散漫，难以认真对待重要之事",
+          "涉世未深，无视保护自己的边界与传统"
+        ]
+      },
+      "Archetype": "The Divine Madman",
+      "Hebrew Alphabet": "Aleph/Ox/1",
+      "Numerology": "0 (off the scale; pure potential)",
+      "Elemental": "Air",
+      "Mythical/Spiritual": "Adam before the fall. Christ as a wandering holy madman. Deity wrapped in human flesh. The Holy Spirit.",
+      "Questions to Ask": [
+        "What would I do if I felt free to take a leap?",
+        "How willing am I to be vulnerable and open?",
+        "How might past experiences help in this new situation?"
+      ]
+    },
+    {
+      "name": "魔术师",
+      "number": "1",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m01.jpg",
+      "fortune_telling": [
+        "一位颇具影响力的男性可能走入你的生活",
+        "眼前的处境只是更宏大蓝图中的一环"
+      ],
+      "keywords": [
+        "能力",
+        "赋能",
+        "行动",
+        "专注"
+      ],
+      "meanings": {
+        "light": [
+          "果断采取切实有效的行动",
+          "接受更高层面的智慧指引",
+          "成为神圣意志的传导渠道",
+          "以建设性方式展现自身力量",
+          "在每个场合都做真实的自己"
+        ],
+        "shadow": [
+          "自我膨胀，傲慢自大",
+          "滥用才华或操控他人",
+          "以幻术迷惑，不愿精进技艺",
+          "贪图捷径，敷衍了事"
+        ]
+      },
+      "Archetype": "The Ego/The Self",
+      "Hebrew Alphabet": "Beth/House/2",
+      "Numerology": "1 (origins, unity, seeds)",
+      "Elemental": "The Sun/Mercury",
+      "Mythical/Spiritual": "Thoth, the Egyptian god of wisdom, known to the Greeks as Hermes and to the Romans as Mercury. Christ working miracles. Brahma, the Creator.",
+      "Questions to Ask": [
+        "What am I empowered to do?",
+        "How might my abilities come into play?",
+        "To what extent am I making the most of my talents?"
+      ]
+    },
+    {
+      "name": "女祭司",
+      "number": "2",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m02.jpg",
+      "fortune_telling": [
+        "一位神秘的女性即将出现",
+        "有人知道的比他愿意透露的更多"
+      ],
+      "keywords": [
+        "直觉",
+        "内省",
+        "神秘",
+        "纯洁"
+      ],
+      "meanings": {
+        "light": [
+          "聆听内心深处的感受与直觉",
+          "探索非传统的灵性道路",
+          "以接受和观察代替急于行动",
+          "守护秘密，在沉默中积蓄力量"
+        ],
+        "shadow": [
+          "过于冷漠疏离，难以亲近",
+          "执迷于阴谋与秘密",
+          "忽视内心发出的警觉信号",
+          "无节制地泄露不该说的事"
+        ]
+      },
+      "Archetype": "The Virgin/The Maiden",
+      "Hebrew Alphabet": "Gimel/Camel/3",
+      "Numerology": "2 (division, debate, duality)",
+      "Elemental": "The Moon",
+      "Mythical/Spiritual": "The feminine aspect of divinity, particularity when expressed through virginity, as with the Virgin Mary or Isis.",
+      "Questions to Ask": [
+        "What might a rebel against tradition do?",
+        "What isn't being said or revealed?",
+        "What could be achieved by observing and reflecting?"
+      ]
+    },
+    {
+      "name": "女皇",
+      "number": "3",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m03.jpg",
+      "fortune_telling": [
+        "丰盛与滋养正向你涌来",
+        "留意生活中对过度享乐的依赖"
+      ],
+      "keywords": [
+        "丰盛",
+        "滋养",
+        "创造",
+        "感性"
+      ],
+      "meanings": {
+        "light": [
+          "慈悲地滋养自己与身边的人",
+          "庆祝身体与感官带来的丰盛体验",
+          "以母性的温柔与创造力迎接生活",
+          "沉浸于大自然的美丽与生命力"
+        ],
+        "shadow": [
+          "过度放纵，贪图享乐",
+          "以占有欲和过度保护令他人窒息",
+          "执迷于成果反而阻碍了创造",
+          "被成瘾行为或贪婪所左右"
+        ]
+      },
+      "Archetype": "The Mother",
+      "Hebrew Alphabet": "Daleth/Door/4",
+      "Numerology": "3 (expression, productivity, output)",
+      "Elemental": "Venus",
+      "Mythical/Spiritual": "Gaia, Mother Earth, Ishtar, DemeterÑmature, reproductive female divinity in every form. Also Aphrodite and Turan. ",
+      "Questions to Ask": [
+        "What would a concerned and capable mother do?",
+        "What can I do that would emphasize growth?",
+        "How can I celebrate my own sensuality and sexuality?"
+      ]
+    },
+    {
+      "name": "皇帝",
+      "number": "4",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m04.jpg",
+      "fortune_telling": [
+        "一位父亲式的权威人物即将出现",
+        "近期将面临秩序与纪律方面的要求"
+      ],
+      "keywords": [
+        "权威",
+        "规则",
+        "结构",
+        "掌控"
+      ],
+      "meanings": {
+        "light": [
+          "以智慧和权威建立清晰的秩序",
+          "制定明确的规则与健康的边界",
+          "用理性驾驭冲动，以经验引导他人",
+          "在任何情况下保持坚定和稳定"
+        ],
+        "shadow": [
+          "事无巨细，过度掌控",
+          "以强硬态度扼杀他人的创造力",
+          "固执己见，不允许任何异议",
+          "用蛮力而非智慧维持秩序"
+        ]
+      },
+      "Archetype": "The Father",
+      "Hebrew Alphabet": "He[as]/Window/5, or in some decks, Tzaddi/Fish hook/90",
+      "Numerology": "4 (stability, equality, persistence)",
+      "Elemental": "Mars/Aries",
+      "Mythical/Spiritual": "Masculine gods, including the Hebrew God, the Christian God, Allah, and Zeus. Patriarchs (Abraham) and lawgivers (Moses). Vishnu, the Preserver.",
+      "Questions to Ask": [
+        "How does the issue of control or regulation impact this situation?",
+        "What would a compassionate but strict father do?",
+        "What needs more control?"
+      ]
+    },
+    {
+      "name": "教皇",
+      "number": "5",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m05.jpg",
+      "fortune_telling": [
+        "一位精神导师或经验丰富的前辈即将出现",
+        "诚实面对自己的过失并寻求指引"
+      ],
+      "keywords": [
+        "传统",
+        "信仰",
+        "指引",
+        "智慧"
+      ],
+      "meanings": {
+        "light": [
+          "以知识和经验引领和教导他人",
+          "在更高力量中寻求启示与指引",
+          "真诚地履行仪式与誓言",
+          "尊重并传承积累的集体智慧"
+        ],
+        "shadow": [
+          "以权威操控或误导他人",
+          "教条化地坚守规则，即便规则已失效",
+          "将空洞的形式凌驾于真实的精神之上",
+          "封锁智慧，拒绝分享与开放"
+        ]
+      },
+      "Archetype": "The Guardian/The Church/Faith",
+      "Hebrew Alphabet": "Vau/Nail or Spike/6",
+      "Numerology": "5 (instability, resistance, confrontation, evolution)",
+      "Elemental": "Taurus/Earth",
+      "Mythical/Spiritual": "The Christ, the Apostle Peter, Buddha, Mohammed. Popes, priests, and intercessors of every faith and tradition",
+      "Questions to Ask": [
+        "What role might tradition or religion play in this situation?",
+        "Who authored the rules? Who enforces them? Why?",
+        "How might an experienced guide impact this situation?"
+      ]
+    },
+    {
+      "name": "恋人",
+      "number": "6",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m06.jpg",
+      "fortune_telling": [
+        "一段充满意义的新关系正在萌芽",
+        "一个需要内心来裁决的重要选择摆在眼前"
+      ],
+      "keywords": [
+        "爱",
+        "激情",
+        "合一",
+        "抉择"
+      ],
+      "meanings": {
+        "light": [
+          "全心全意地去爱，并坦然接受被爱",
+          "与志同道合的人携手同行",
+          "做出有充分依据的明智抉择",
+          "让真实的价值观指引重要的人生决定"
+        ],
+        "shadow": [
+          "被激情蒙蔽了判断力",
+          "因渴望爱而产生自我毁灭的行为",
+          "在重要决定上仓促行事",
+          "做出违背内心深处价值观的选择"
+        ]
+      },
+      "Archetype": "The Lover/Sexual Awakening",
+      "Hebrew Alphabet": "Zain/Sword/7",
+      "Numerology": "6 (cooperation, collaboration, interaction)",
+      "Elemental": "Gemini",
+      "Mythical/Spiritual": "Obviously, Adam and Eve, who are depicted in RWS-influenced decks. Also Venus and Cupid, Aphrodite and Eros.",
+      "Questions to Ask": [
+        "What guides my choices?",
+        "What is my heart leading me to do?",
+        "How might this decision transform me as a person?"
+      ]
+    },
+    {
+      "name": "战车",
+      "number": "7",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m07.jpg",
+      "fortune_telling": [
+        "胜利即将到来，带着信心全力前进",
+        "留意来自他人的嫉妒与潜在阻碍"
+      ],
+      "keywords": [
+        "胜利",
+        "意志",
+        "掌控",
+        "前进"
+      ],
+      "meanings": {
+        "light": [
+          "以坚定的意志突破重重阻碍",
+          "带着自信与权威大步迈向目标",
+          "引领团队走向全面的胜利",
+          "以过往成就为基石，迎接新的挑战"
+        ],
+        "shadow": [
+          "沉湎于过去的荣耀，忽视眼前的机遇",
+          "横冲直撞，无视他人的感受与需求",
+          "无法驾驭内心的冲动与情绪",
+          "以胜利为借口，不择手段"
+        ]
+      },
+      "Archetype": "The Victorious Hero",
+      "Hebrew Alphabet": "Cheth/Fence/8",
+      "Numerology": "7 (imagination, inner work, psychology)",
+      "Elemental": "Cancer",
+      "Mythical/Spiritual": "Odysseus. Jason. The search for the Holy Grail. Christ's triumphal entry into Jerusalem.",
+      "Questions to Ask": [
+        "To what extent have I arrived? What will my next challenge be?",
+        "How can I use past achievements to their best advantage?",
+        "What would the criteria for real and meaningful success be?"
+      ]
+    },
+    {
+      "name": "力量",
+      "number": "8",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m08.jpg",
+      "fortune_telling": [
+        "你的内在力量将接受真实的考验",
+        "你比自己以为的更加坚韧强大"
+      ],
+      "keywords": [
+        "自律",
+        "耐心",
+        "勇气",
+        "内在力量"
+      ],
+      "meanings": {
+        "light": [
+          "以温柔而坚定的力量驾驭内心的冲动",
+          "以耐心和慈悲面对自身的不完美",
+          "让理智和爱引领本能，而非相反",
+          "在关键时刻勇于采取果断行动"
+        ],
+        "shadow": [
+          "在明知有害时仍放纵软弱",
+          "被本能冲动所主宰，失去自我掌控",
+          "沉溺于成瘾行为，无法自拔",
+          "在关键时刻选择逃避而非担当"
+        ]
+      },
+      "Archetype": "The Law",
+      "Hebrew Alphabet": "Lamed/Outstretched Arms/30 or Theth/Snake/9",
+      "Numerology": "8 (movement, work) or 11 = 1 + 1 = 2 (debate, duality)",
+      "Elemental": "Libra or Leo",
+      "Mythical/Spiritual": "Themis or Justitia. Ma'at. Solomon dividing a baby. The Sword of Damocles. The giving of the Ten Commandments.",
+      "Questions to Ask": [
+        "To what extent is your life (or work) balanced?",
+        "How can you achieve greater objectivity?",
+        "What course of action would be fair to everyone concerned?"
+      ]
+    },
+    {
+      "name": "隐者",
+      "number": "9",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m09.jpg",
+      "fortune_telling": [
+        "一段独处与内省的时光正在召唤你",
+        "追寻内心真相比向外求索更重要"
+      ],
+      "keywords": [
+        "独处",
+        "智慧",
+        "内省",
+        "引导"
+      ],
+      "meanings": {
+        "light": [
+          "在独处中为灵魂充电，与内心深处对话",
+          "成为智者，或主动寻访能点亮你的人",
+          "退一步获取更开阔的视野与洞见",
+          "为迷途的人提供光亮和方向"
+        ],
+        "shadow": [
+          "以孤僻来逃避真正的联结与成长",
+          "将自己塑造成无所不知的权威",
+          "因恐惧不够好而藏起自己的才华",
+          "将独处变成逃避现实的借口"
+        ]
+      },
+      "Archetype": "The Holy Man",
+      "Hebrew Alphabet": "Yod/Hand/10",
+      "Numerology": "9 (fullness, readiness, ripeness)",
+      "Elemental": "Virgo",
+      "Mythical/Spiritual": "The Christ, while fasting 40 days in the wilderness. Chronos, the god of time. Father Time. Hermes.",
+      "Questions to Ask": [
+        "What would happen if I simply withdrew and took no action?",
+        "How can I get some perspective on the situation?",
+        "Who has walked this path before me? How can I enlist his or her help?"
+      ]
+    },
+    {
+      "name": "命运之轮",
+      "number": "10",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m10.jpg",
+      "fortune_telling": [
+        "某些事情自有天意的安排",
+        "生命以螺旋式前进，你曾经历过类似的时刻"
+      ],
+      "keywords": [
+        "命运",
+        "循环",
+        "因果",
+        "契机"
+      ],
+      "meanings": {
+        "light": [
+          "顺应生命自然流动的节奏",
+          "在日常事件中看见更大的规律与意义",
+          "相信善有善报的循环法则",
+          "在变动中寻找转机与新的可能"
+        ],
+        "shadow": [
+          "以宿命论的消极态度对待生活",
+          "拒绝为命运的改变付出自己的努力",
+          "试图控制无法掌控的事物",
+          "在赌注与冲动中白白浪费珍贵资源"
+        ]
+      },
+      "Archetype": "The Fates/Destiny",
+      "Hebrew Alphabet": "Koph/Palm/20",
+      "Numerology": "10 (finality, completion) and 10 = 1 + 0 = 1 (seed, opportunity)",
+      "Elemental": "Jupiter",
+      "Mythical/Spiritual": "The God in the Machine. Deus ex Machina. Clotho, Lachesis, and Atropos. Fortuna.",
+      "Questions to Ask": [
+        "How does this challenge fit into a larger pattern?",
+        "What role does luck play in my circumstances?",
+        "What can I control? How should I know when to relinquish control?"
+      ]
+    },
+    {
+      "name": "正义",
+      "number": "11",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m11.jpg",
+      "fortune_telling": [
+        "一个公正的结果即将到来",
+        "确保你掌握了完整的事实真相"
+      ],
+      "keywords": [
+        "公正",
+        "平衡",
+        "法则",
+        "客观"
+      ],
+      "meanings": {
+        "light": [
+          "以客观公正的眼光做出正确的判断",
+          "在行动前仔细权衡每一个方面",
+          "让反应与情境的轻重相称",
+          "以事实和证据为依据，深思熟虑"
+        ],
+        "shadow": [
+          "执迷于规则和条文，忽视真实的人情",
+          "言辞苛刻，批评过度",
+          "即便规则产生伤害也一味坚守",
+          "在判断中有所偏颇，厚此薄彼"
+        ]
+      },
+      "Archetype": "The Id",
+      "Hebrew Alphabet": "Theth/Snake/9 or Lamed/Outstretched Arms/30",
+      "Numerology": "11 = 1 + 1 = 2 (debate, duality) or 8 (movement, outer work)",
+      "Elemental": "Leo or Libra",
+      "Mythical/Spiritual": "Samson. Hercules. Daniel in the lion's den. The sinless Christ.",
+      "Questions to Ask": [
+        "How can I enhance my self-discipline?",
+        "What behaviors tempt me? How can I resist?",
+        "What instincts do I continue to struggle with today?"
+      ]
+    },
+    {
+      "name": "倒吊人",
+      "number": "12",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m12.jpg",
+      "fortune_telling": [
+        "暂停和等待比强行推进更有智慧",
+        "以全新的视角重新审视当下的处境"
+      ],
+      "keywords": [
+        "暂停",
+        "牺牲",
+        "换位",
+        "顿悟"
+      ],
+      "meanings": {
+        "light": [
+          "在逆境中主动寻找成长的机遇",
+          "甘愿做出有意义的牺牲，换取更深的洞见",
+          "将视角颠转，看见从前看不见的真相",
+          "以开放的心态暂停，等待真正的时机"
+        ],
+        "shadow": [
+          "对自己的价值观和立场不诚实",
+          "在应当付出时拒绝做出必要的牺牲",
+          "将所有问题的责任推卸给外部因素",
+          "固执地拒绝适应新的情境与变化"
+        ]
+      },
+      "Archetype": "The Traitor",
+      "Hebrew Alphabet": "Mem/Water/40",
+      "Numerology": "12 = 1 + 2 = 3 (expression, productivity, output)",
+      "Elemental": "Water",
+      "Mythical/Spiritual": "The Crucified Christ. Isaac as a sacrifice. Prometheus bound. Jonah and the whale. Lazarus. Any hanged or sacrificed god. Judas.",
+      "Questions to Ask": [
+        "How can I radically alter my perspective?",
+        "How might being stuck actually be a blessing in disguise?",
+        "How can I help myself see the glass as half full?"
+      ]
+    },
+    {
+      "name": "死神",
+      "number": "13",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m13.jpg",
+      "fortune_telling": [
+        "一段旧的篇章即将走向终结",
+        "放手，才能为真正的新生腾出空间"
+      ],
+      "keywords": [
+        "终结",
+        "转化",
+        "放下",
+        "重生"
+      ],
+      "meanings": {
+        "light": [
+          "勇敢地为不再适合的人生阶段画上句号",
+          "以感恩的心承认并庆祝一段旅程的完成",
+          "告别旧有的习惯，迎接蜕变后的新自我",
+          "在终结中看见新生的契机与希望"
+        ],
+        "shadow": [
+          "执着于不肯放手的习惯或不健康的关系",
+          "坚持一切必须维持原状，抗拒任何改变",
+          "对消逝和终结的恐惧凌驾于成长之上",
+          "忽视对自身健康和状态的照料"
+        ]
+      },
+      "Archetype": "Death",
+      "Hebrew Alphabet": "Nun/Fish/50",
+      "Numerology": "13 = 1 + 3 = 4 (stability, persistence)",
+      "Elemental": "Scorpio",
+      "Mythical/Spiritual": "Christ in the tomb. Hades. Hypnos. Thanatos. Stories of journeys into the underworld.",
+      "Questions to Ask": [
+        "What needs to end?",
+        "How might an ending actually be a blessing in this situation?",
+        "What's next?"
+      ]
+    },
+    {
+      "name": "节制",
+      "number": "14",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m14.jpg",
+      "fortune_telling": [
+        "耐心与平衡是当下最需要的智慧",
+        "将对立的元素融合，创造新的和谐"
+      ],
+      "keywords": [
+        "调和",
+        "平衡",
+        "中庸",
+        "融合"
+      ],
+      "meanings": {
+        "light": [
+          "将对立的力量融合，创造新的平衡",
+          "调节自己的行为与情绪，避免走极端",
+          "以折中与妥协满足各方的核心需求",
+          "取旧有元素之精华，创造崭新的可能"
+        ],
+        "shadow": [
+          "走向极端，缺乏节制与分寸感",
+          "破坏本可共同推进的合作与合力",
+          "将成瘾与放纵包装成享受生活",
+          "以过激的行为破坏长期建立的联盟"
+        ]
+      },
+      "Archetype": "The Mediator",
+      "Hebrew Alphabet": "Samekh/Foundation/60",
+      "Numerology": "14 = 1 + 4 = 5 (catalyst, instability, confrontation)",
+      "Elemental": "Sagittarius",
+      "Mythical/Spiritual": "The angel seen here may be the goddess Iris. By extension, priests, priesthoods, or the transfigured Christ.",
+      "Questions to Ask": [
+        "How can I avoid extremes?",
+        "What does everyone involved have in common?",
+        "How might combining familiar things help me create something new?"
+      ]
+    },
+    {
+      "name": "恶魔",
+      "number": "15",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m15.jpg",
+      "fortune_telling": [
+        "留意那些以美好面目出现的束缚",
+        "是时候正视内心深处真实的欲望与恐惧"
+      ],
+      "keywords": [
+        "阴影",
+        "束缚",
+        "物质",
+        "欲望"
+      ],
+      "meanings": {
+        "light": [
+          "正视自身的欲望与阴暗面，与之和解",
+          "享受物质生活的同时不被其所奴役",
+          "承认每个人都有需要被接纳的黑暗面",
+          "以健康的方式处理和表达内心的冲动"
+        ],
+        "shadow": [
+          "将物质和外表凌驾于内在价值之上",
+          "让恐惧和欲望成为主宰人生的力量",
+          "深陷成瘾或强迫性的行为模式",
+          "将自身黑暗的冲动归咎于外部原因"
+        ]
+      },
+      "Archetype": "The Shadow, The Other",
+      "Hebrew Alphabet": "Ayin/Eye/70",
+      "Numerology": "15 = 1 + 5 = 6 (adjustment, collaboration)",
+      "Elemental": "Capricorn",
+      "Mythical/Spiritual": "The Biblical Satan, certainly. Fallen angels, including Lucifer. Bacchus and Pan. Tempters and serpents of every stripe.",
+      "Questions to Ask": [
+        "What enslaves me? How can I set myself free?",
+        "How can I re-evaluate the importance I assign to material things?",
+        "To what extent do my cravings define me?"
+      ]
+    },
+    {
+      "name": "塔",
+      "number": "16",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m16.jpg",
+      "fortune_telling": [
+        "一次突如其来的剧变正在逼近",
+        "旧有的结构将被打破，为真实腾出空间"
+      ],
+      "keywords": [
+        "剧变",
+        "解构",
+        "觉醒",
+        "重建"
+      ],
+      "meanings": {
+        "light": [
+          "以剧变打破限制自己的旧有模式",
+          "接受突然的洞见与清醒的时刻",
+          "以破局为契机，在废墟上建立更真实的存在",
+          "诚实地面对一直被刻意回避的真相"
+        ],
+        "shadow": [
+          "执意抱守崩塌的旧有结构和信念",
+          "拒绝承认变革的必要性，继续自欺欺人",
+          "以恶意破坏代替建设性的转变",
+          "在动荡来临时惊慌失措，丧失内在稳定"
+        ]
+      },
+      "Archetype": "The Shattered Ego",
+      "Hebrew Alphabet": "Pe[as]/Open Mouth/80",
+      "Numerology": "16 = 1 + 6 = 7 (psychology, imagination, inner work)",
+      "Elemental": "Mars",
+      "Mythical/Spiritual": "The Tower of Babel. The destruction of Sodom and Gomorrah. Shiva's destructive dance. The lightning of Zeus and Thor.",
+      "Questions to Ask": [
+        "How might the current situation dramatically alter my perspective?",
+        "How might this loss open the door for new growth?",
+        "What attitudes need to be struck down before I proceed?"
+      ]
+    },
+    {
+      "name": "星星",
+      "number": "17",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m17.jpg",
+      "fortune_telling": [
+        "黑暗过后，希望的光芒已在地平线升起",
+        "以开放的心接受宇宙善意的馈赠"
+      ],
+      "keywords": [
+        "希望",
+        "疗愈",
+        "乐观",
+        "指引"
+      ],
+      "meanings": {
+        "light": [
+          "在困境之后重燃对生命的希望与信任",
+          "以开放、感恩的姿态接受生命的美好",
+          "向更高的智慧寻求指引与启发",
+          "以慷慨的心去给予，光芒自然流动"
+        ],
+        "shadow": [
+          "以玫瑰色的滤镜逃避真实存在的问题",
+          "拒绝为改变现状付出实际的努力",
+          "在他人需要支持时给出空洞的鼓励",
+          "以悲观主义遮蔽本可照亮他人的光"
+        ]
+      },
+      "Archetype": "The Heavenly Guide",
+      "Hebrew Alphabet": "Tzaddi/Fishhook/90 or, in some decks, He[as]/Window/5",
+      "Numerology": "17 = 1 + 7 = 8 (action, movement, swiftness)",
+      "Elemental": "Aquarius",
+      "Mythical/Spiritual": "The star that guided the Magi. Aphrodite. Venus. The Pleiades. Moses bringing forth water from the rock.",
+      "Questions to Ask": [
+        "What would my higher power direct me to do?",
+        "How can I be less self-conscious and guarded?",
+        "How can I better attune myself to the abundance of life's blessings?"
+      ]
+    },
+    {
+      "name": "月亮",
+      "number": "18",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m18.jpg",
+      "fortune_telling": [
+        "在混沌与迷雾中，直觉是最可靠的向导",
+        "有些事物隐藏在表面之下，需要更深的探索"
+      ],
+      "keywords": [
+        "直觉",
+        "潜意识",
+        "幻象",
+        "恐惧"
+      ],
+      "meanings": {
+        "light": [
+          "进入潜意识的深处，聆听内心的低语",
+          "以想象力和直觉引导前行的方向",
+          "拥抱生命的神秘与未知，不急于得到答案",
+          "与自然的节律和黑暗的疗愈力量同频"
+        ],
+        "shadow": [
+          "深陷幻觉与妄想，无法看清真实",
+          "让莫名的恐惧主宰行动和判断",
+          "用过度理性压制重要的感受与直觉",
+          "在混沌中迷失，失去前行的方向"
+        ]
+      },
+      "Archetype": "The Holy Feminine/The Crone",
+      "Hebrew Alphabet": "Koph/Back of the Head/100",
+      "Numerology": "18 = 1 + 8 = 9 (fullness, readiness, ripeness)",
+      "Elemental": "Pisces",
+      "Mythical/Spiritual": "Kali, the dark-skinned divine mother associated with time, the eternal night, and the female principle. Hecate, goddess of night and darkness, who, like Anubis, assists others in their travels to the underworld. ",
+      "Questions to Ask": [
+        "How can I face my fears and move forward?",
+        "What helpers can serve me as guides through my personal darkness?",
+        "How can I deal with the unknown in healthy ways?"
+      ]
+    },
+    {
+      "name": "太阳",
+      "number": "19",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m19.jpg",
+      "fortune_telling": [
+        "光明和喜悦正向你涌来，尽情拥抱",
+        "你的努力与付出即将迎来丰盛的回报"
+      ],
+      "keywords": [
+        "喜悦",
+        "活力",
+        "光明",
+        "成功"
+      ],
+      "meanings": {
+        "light": [
+          "全然地沉浸在生命带来的喜悦与温暖中",
+          "以透明和真诚展现最真实的自我",
+          "以充沛的活力和热情感染身边的人",
+          "在阳光普照中庆祝当下的美好与丰盛"
+        ],
+        "shadow": [
+          "以耀眼的外表遮掩内心的空洞与不安",
+          "过于天真，无法承担应当承担的责任",
+          "以骄傲和自大疏远需要你的人",
+          "回避生命中真实存在的复杂与挑战"
+        ]
+      },
+      "Archetype": "The Holy Masculine",
+      "Hebrew Alphabet": "Resh/Head/200",
+      "Numerology": "19 = 1 + 9 = 10 (completion, exhaustion) 1 + 0 = 1 (starting point, opportunity)",
+      "Elemental": "The Sun",
+      "Mythical/Spiritual": "God the Father. Sun gods, including Ra, Apollo, and Helios. The moment of baptism. Claiming a new faith as your own.",
+      "Questions to Ask": [
+        "How can I take best advantage of the attention coming my way?",
+        "What are my highest spiritual goals?",
+        "How can I avoid being bedazzled by the energy swirling around me?"
+      ]
+    },
+    {
+      "name": "审判",
+      "number": "20",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m20.jpg",
+      "fortune_telling": [
+        "一次深刻的内在觉醒正在召唤你回应",
+        "这是重新审视自己、做出改变的关键时刻"
+      ],
+      "keywords": [
+        "觉醒",
+        "宽恕",
+        "重生",
+        "召唤"
+      ],
+      "meanings": {
+        "light": [
+          "回应内心深处关于人生使命的召唤",
+          "以宽恕释放自己和他人，走向新生",
+          "从过去的经历中汲取智慧，以崭新的自我出发",
+          "以清醒的眼光重新审视和评估人生的走向"
+        ],
+        "shadow": [
+          "拒绝放下过去的错误和遗憾，陷于自责",
+          "对重要的精神信号视而不见",
+          "无限期拖延那些需要被做出的重要决定",
+          "不给予他人改变和成长的机会"
+        ]
+      },
+      "Archetype": "Resurrection",
+      "Hebrew Alphabet": "Sin/Tooth/300",
+      "Numerology": "20 = 2 + 0 = 2 (division, duality)",
+      "Elemental": "Fire",
+      "Mythical/Spiritual": "The resurrected Christ. The Last Judgment of Revelation. The phoenix, which rises to new life from its own ashes.",
+      "Questions to Ask": [
+        "What is the main thing I need to realize about myself?",
+        "In what way might the universe be trying to get my attention?",
+        "If I were to reinvent myself, what would I become?"
+      ]
+    },
+    {
+      "name": "世界",
+      "number": "21",
+      "arcana": "Major Arcana",
+      "suit": "Trump",
+      "img": "m21.jpg",
+      "fortune_telling": [
+        "一段重要的旅程正在走向圆满的终点",
+        "你所期待的丰盛正以最适合的形式显现"
+      ],
+      "keywords": [
+        "圆满",
+        "成就",
+        "整合",
+        "完成"
+      ],
+      "meanings": {
+        "light": [
+          "以感恩和喜悦迎接一段旅程的完美终点",
+          "庆祝自己整合了所有经历后的成长与蜕变",
+          "以完整的自我在世界上自由地存在",
+          "将所有经历转化为智慧，开启下一段旅程"
+        ],
+        "shadow": [
+          "在胜利近在眼前时因疏忽而功亏一篑",
+          "无法真正完成开始的事情，执着于某一阶段",
+          "抗拒那些象征着真正终结和完成的时刻",
+          "带着尚未了结的心结开始新的旅程"
+        ]
+      },
+      "Archetype": "Enlightenment",
+      "Hebrew Alphabet": "Tau/Cross/400",
+      "Numerology": "21 = 2 + 1 = 3 (expression, result)",
+      "Elemental": "Saturn",
+      "Mythical/Spiritual": "The ascended Christ. The Buddha attaining enlightenment. The alpha and the omega. The completion of the alchemist's great work.",
+      "Questions to Ask": [
+        "For me, what would having it all mean?",
+        "How aware am I of my own connectedness to the world around me?",
+        "What keeps me from having it all right now, today?"
+      ]
+    },
+    {
+      "name": "圣杯王牌",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c01.jpg",
+      "fortune_telling": [
+        "爱与情感的新开始即将降临",
+        "内心深处有什么正在被唤醒和开放"
+      ],
+      "keywords": [
+        "爱",
+        "情感",
+        "直觉",
+        "新生"
+      ],
+      "meanings": {
+        "light": [
+          "以开放的心接受爱、喜悦和情感的馈赠",
+          "开启一段充满可能性的情感新篇章",
+          "以慈悲和爱心回应身边人的需求",
+          "聆听内心深处直觉发出的微弱声音"
+        ],
+        "shadow": [
+          "对爱的给予和接受竖起高墙",
+          "将情感淹没在理性的过度分析之中",
+          "因害怕受伤而主动关闭感受的大门",
+          "以压抑代替处理真实的情绪与感受"
+        ]
+      },
+      "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+      "Astrology": "Cancer, Scorpio, Pisces",
+      "Affirmation": "\"I listen to the counsel of my heart.\"",
+      "Questions to Ask": [
+        "What am I feeling right now?",
+        "How would I go about opening myself to spiritual guidance?",
+        "What motivates me the most - pleasure or pain? Why?"
+      ]
+    },
+    {
+      "name": "圣杯二",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c02.jpg",
+      "fortune_telling": [
+        "一段深刻的情感联结正在形成",
+        "两颗心正在以真实的方式相遇"
+      ],
+      "keywords": [
+        "联结",
+        "伴侣",
+        "吸引",
+        "和谐"
+      ],
+      "meanings": {
+        "light": [
+          "与另一个人建立真实而深刻的情感联结",
+          "以平等和尊重为基础共同构建关系",
+          "坦诚地分享内心深处真实的自我",
+          "在相互吸引中发现共同的价值观与愿景"
+        ],
+        "shadow": [
+          "将表面的吸引力误认为深层的灵魂契合",
+          "在关系中失去自我，以对方为全部",
+          "单方面执着于一段并不对等的关系",
+          "以共依存替代真正健康的相互依靠"
+        ]
+      },
+      "Numerology": "2 (The Other: duality, division, debate)",
+      "Astrology": "Venus in Cancer",
+      "Affirmation": "\"I am attuned to what my heart truly desires.\"",
+      "Questions to Ask": [
+        "How can I make sure that what I'm feeling is mutual?\",\"When was the last time I felt \"in love\" with someone or something?",
+        "What do you need in order to feel emotionally stable?"
+      ]
+    },
+    {
+      "name": "圣杯三",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c03.jpg",
+      "fortune_telling": [
+        "一场充满喜悦的庆祝即将到来",
+        "友谊和团体的力量将带来真正的滋养"
+      ],
+      "keywords": [
+        "友谊",
+        "庆祝",
+        "社群",
+        "喜悦"
+      ],
+      "meanings": {
+        "light": [
+          "在亲密的友谊和社群中寻找真实的归属",
+          "以欢笑和庆祝分享彼此的喜悦与成就",
+          "与志同道合的人共同创造有意义的时光",
+          "在真实的连接中体验情感上的丰盛"
+        ],
+        "shadow": [
+          "以表面热闹的社交填补内心深处的孤独",
+          "在群体的喧嚣中逃避真正需要面对的问题",
+          "流于八卦和谣言，破坏真实的友情",
+          "以取悦他人替代真正表达自己的需求"
+        ]
+      },
+      "Numerology": "3 (The Result: expression, productivity, output)",
+      "Astrology": "Mercury in Cancer",
+      "Affirmation": "\"I allow my actions to reflect my true emotions.\"",
+      "Questions to Ask": [
+        "What's worth celebrating in my life?",
+        "How can I demonstrate my feelings in appropriate ways?",
+        "What can I do to show my partner how I really feel?"
+      ]
+    },
+    {
+      "name": "圣杯四",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c04.jpg",
+      "fortune_telling": [
+        "当你沉浸在不满中时，新的机遇正悄悄出现",
+        "是时候重新审视自己对生活的态度"
+      ],
+      "keywords": [
+        "冥想",
+        "不满",
+        "内省",
+        "机遇"
+      ],
+      "meanings": {
+        "light": [
+          "在退出和暂停中重新评估真正的需求",
+          "允许自己对目前的情况保持诚实的不满",
+          "在向外寻求之前，先在内心深处寻找答案",
+          "以真正的内省代替表面的积极主义"
+        ],
+        "shadow": [
+          "因过度沉浸于不满而错失眼前的礼物",
+          "以冷漠和消极对待真心关心你的人",
+          "在安全的无聊中逃避真正的改变",
+          "以苦涩和怨恨填满本可被感恩的空间"
+        ]
+      },
+      "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+      "Astrology": "Moon in Cancer",
+      "Affirmation": "\"I appreciate what I've been given.\"",
+      "Questions to Ask": [
+        "How can I use this \"downtime\" to my best advantage?",
+        "How can I show my partner that I don't take him or her for granted?",
+        "To what extent is my mood blinding me to new opportunities?"
+      ]
+    },
+    {
+      "name": "圣杯五",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c05.jpg",
+      "fortune_telling": [
+        "悲伤和失落是当下真实存在的课题",
+        "在哀悼中也请不要忘记仍然存在的美好"
+      ],
+      "keywords": [
+        "失落",
+        "悲伤",
+        "遗憾",
+        "释然"
+      ],
+      "meanings": {
+        "light": [
+          "诚实地面对失去带来的悲伤，充分哀悼",
+          "在悲伤过后，以温柔的目光转向仍然存在的美好",
+          "以失败和遗憾为师，从中汲取真实的智慧",
+          "以宽恕和释然为失去的事物画上句号"
+        ],
+        "shadow": [
+          "沉溺于悲伤和遗憾中，拒绝前行",
+          "将所有注意力放在失去的上面，看不见留下的",
+          "以受害者的心态拒绝承担自己的责任",
+          "让过去的失去成为阻碍未来的精神枷锁"
+        ]
+      },
+      "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+      "Astrology": "Mars in Scorpio",
+      "Affirmation": "\"I learn from my losses and move on.\"",
+      "Questions to Ask": [
+        "How do I tend to deal with loss?",
+        "What life lesson might I be learning now?",
+        "How can I shift my attention from the past to the future?"
+      ]
+    },
+    {
+      "name": "圣杯六",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c06.jpg",
+      "fortune_telling": [
+        "过去的美好记忆将带来温暖与疗愈",
+        "一个来自过去的人或事物将重新浮现"
+      ],
+      "keywords": [
+        "回忆",
+        "怀旧",
+        "童真",
+        "馈赠"
+      ],
+      "meanings": {
+        "light": [
+          "从美好的记忆和怀旧情怀中汲取力量",
+          "以孩子般纯粹的眼光重新感受当下的美好",
+          "以无私的心去给予，不求任何回报",
+          "与过去建立和解，带着智慧轻盈前行"
+        ],
+        "shadow": [
+          "沉湎于过去的美好，逃避当下的现实",
+          "以玫瑰色的滤镜美化过去，忽视当时的真相",
+          "活在怀旧的幻觉中，无法在当下生根",
+          "以童年的伤痛为借口拒绝承担成人的责任"
+        ]
+      },
+      "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+      "Astrology": "Sun in Scorpio",
+      "Affirmation": "\"I freely give myself to others, expecting nothing in return.\"",
+      "Questions to Ask": [
+        "What gifts do I possess? How freely do I give them?",
+        "How can I practice unconditional giving?",
+        "How would things change if I became a more charitable person?"
+      ]
+    },
+    {
+      "name": "圣杯七",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c07.jpg",
+      "fortune_telling": [
+        "你面前摆着太多的选项，需要清醒地辨别",
+        "不要让幻想遮蔽了真实的可能性"
+      ],
+      "keywords": [
+        "幻想",
+        "选择",
+        "迷惑",
+        "辨别"
+      ],
+      "meanings": {
+        "light": [
+          "允许自己自由地去想象和梦想",
+          "在众多的选项中找到真正与自我共鸣的那个",
+          "探索不同的可能性，不急于做出最终决定",
+          "以创造性的想象力激发真实的灵感"
+        ],
+        "shadow": [
+          "用不切实际的幻想逃避真实的行动",
+          "在面对选择时因过度分析而无法决断",
+          "以白日梦替代真实的努力和付出",
+          "在迷幻般的选项中迷失，失去内心的真实方向"
+        ]
+      },
+      "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+      "Astrology": "Venus in Scorpio",
+      "Affirmation": "\"I use inner vision as a tool for growth.\"",
+      "Questions to Ask": [
+        "What do you want most? What do you fear most? How are these related?",
+        "How is your imagination working for you? Against you?",
+        "How might a clearer personal vision help you choose a single cup from the many available?"
+      ]
+    },
+    {
+      "name": "圣杯八",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c08.jpg",
+      "fortune_telling": [
+        "是时候离开那些不再服务于你成长的事物",
+        "以勇气追寻更深层次的意义与满足"
+      ],
+      "keywords": [
+        "离开",
+        "追寻",
+        "放下",
+        "转变"
+      ],
+      "meanings": {
+        "light": [
+          "以勇气离开那些已经失去意义的关系或情境",
+          "主动追寻更深层次的心灵满足感",
+          "以清醒的眼光看见某段旅程已走到终点",
+          "在放手中以更轻盈的状态迈向新的可能"
+        ],
+        "shadow": [
+          "因恐惧失去而不敢离开已经不健康的处境",
+          "在没有方向的情况下盲目逃离",
+          "以离开和逃跑代替真实的沟通和解决",
+          "在情绪低落时做出不理性的冲动决定"
+        ]
+      },
+      "Numerology": "8 (The Action: movement, outer work, swiftness)",
+      "Astrology": "Saturn in Pisces",
+      "Affirmation": "\"I am always open to opportunities for growth.\"",
+      "Questions to Ask": [
+        "What do I need to leave behind once and for all?",
+        "If I left in search of \"more,\" what would I be looking for, exactly?",
+        "How might a retreat enhance my perspective?"
+      ]
+    },
+    {
+      "name": "圣杯九",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c09.jpg",
+      "fortune_telling": [
+        "你内心深处最真实的愿望正在或即将实现",
+        "满足感和幸福感触手可及"
+      ],
+      "keywords": [
+        "满足",
+        "心愿",
+        "幸福",
+        "感恩"
+      ],
+      "meanings": {
+        "light": [
+          "真心庆祝当下已经拥有的幸福与满足",
+          "允许自己充分享受努力换来的成果",
+          "以感恩的心认可并珍惜生命中的美好",
+          "与身边的人分享内心真实的喜悦与满足"
+        ],
+        "shadow": [
+          "以物质的满足填补内心深处的空洞",
+          "以贪婪的心永远追求更多，无法满足",
+          "将快乐建立在他人的失去或羡慕之上",
+          "以炫耀和自满替代真正发自内心的感恩"
+        ]
+      },
+      "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+      "Astrology": "Jupiter in Pisces",
+      "Affirmation": "\"I have everything I need to be happy.\"",
+      "Questions to Ask": [
+        "What is true happiness?",
+        "If I could have anything, what would I have?",
+        "What is my attitude toward luxury? Do I deserve it?"
+      ]
+    },
+    {
+      "name": "圣杯十",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c10.jpg",
+      "fortune_telling": [
+        "家庭与亲密关系将迎来真正的和谐与幸福",
+        "你一直渴望的情感圆满正在到来"
+      ],
+      "keywords": [
+        "圆满",
+        "家庭",
+        "和谐",
+        "幸福"
+      ],
+      "meanings": {
+        "light": [
+          "在亲密关系中体验真正深刻的情感圆满",
+          "以爱和包容建立真实稳固的家庭纽带",
+          "庆祝长期培育的关系所结出的美好果实",
+          "将爱与幸福延伸到整个社群与大家庭"
+        ],
+        "shadow": [
+          "以和谐的表象掩盖关系中真实存在的裂痕",
+          "对家庭和伴侣抱有不切实际的完美期待",
+          "用外在的幸福形象回避内在真实的需求",
+          "在追求完美家庭图景时忽视每个人真正的感受"
+        ]
+      },
+      "Numerology": "10 (The End: finality, completion, exhaustion)",
+      "Astrology": "Mars in Pisces",
+      "Affirmation": "\"I take time to appreciate what I've been given.\"",
+      "Questions to Ask": [
+        "Who gets to define what \"joy\" consists of?",
+        "What course of action is available when you feel overwhelmed?",
+        "How might vows or promises play a role in achieving a greater level of joy in your life?"
+      ]
+    },
+    {
+      "name": "圣杯侍从",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c11.jpg",
+      "fortune_telling": [
+        "一个充满感性和创意的好消息即将到来",
+        "内心的直觉正在以出人意料的方式说话"
+      ],
+      "keywords": [
+        "感性",
+        "直觉",
+        "创意",
+        "好奇"
+      ],
+      "meanings": {
+        "light": [
+          "以开放和好奇的心聆听内心的直觉信号",
+          "允许自己以感性和创意的方式表达内心",
+          "以孩子般的纯真拥抱感受和想象力",
+          "对意外的灵感和洞见保持开放的态度"
+        ],
+        "shadow": [
+          "以情绪化代替成熟的情感表达",
+          "让幻想和白日梦占据过多的心理空间",
+          "拒绝面对真实的情感，活在理想化的感受中",
+          "在情绪的海洋中迷失，缺乏稳定的内心根基"
+        ]
+      },
+      "Elemental": "Earth of Water.",
+      "Affirmation": "\"I am ready to embrace love and Spirit.\"",
+      "Questions to Ask": [
+        "How worried are you that others will see you as foolish or inexperienced?",
+        "To what extent can you be honest about your lack of experience in love and faith?",
+        "How can you maintain enthusiasm over time?"
+      ]
+    },
+    {
+      "name": "圣杯骑士",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c12.jpg",
+      "fortune_telling": [
+        "一位充满浪漫气息和感性魅力的人即将出现",
+        "以激情和诗意追求内心真正渴望的事物"
+      ],
+      "keywords": [
+        "浪漫",
+        "感性",
+        "追求",
+        "魅力"
+      ],
+      "meanings": {
+        "light": [
+          "以充满诗意的激情追求内心真正渴望的事物",
+          "用真诚的情感表达打动身边重要的人",
+          "以感性和直觉引领创造性的项目和追求",
+          "以骑士般的精神去守护和珍视美好的事物"
+        ],
+        "shadow": [
+          "用浪漫的幻想代替真实关系中所需的努力",
+          "情绪化且善变，难以建立稳定的情感连接",
+          "以追求的姿态逃避真正承担承诺的责任",
+          "以激情开始，却缺乏耐心坚持到最后"
+        ]
+      },
+      "Elemental": "Air of Water.",
+      "Affirmation": "\"I translate my passions into actions.\"",
+      "Questions to Ask": [
+        "How prone to emotional extremes are you?",
+        "What's the difference in driving passion and blind zeal?",
+        "How can you inspire others without inciting a riot?"
+      ]
+    },
+    {
+      "name": "圣杯王后",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c13.jpg",
+      "fortune_telling": [
+        "一位充满同理心、温柔而睿智的女性将带来重要影响",
+        "以慈悲和直觉回应身边人真正的情感需求"
+      ],
+      "keywords": [
+        "同理心",
+        "慈悲",
+        "直觉",
+        "情感智慧"
+      ],
+      "meanings": {
+        "light": [
+          "以深刻的同理心感受和回应他人真实的情感",
+          "以直觉和情感智慧引导重要的决策",
+          "在情绪动荡中保持内心的平静与稳定",
+          "以无条件的爱和包容滋养身边的人"
+        ],
+        "shadow": [
+          "以过度的情感投入耗尽自己的能量",
+          "在同情他人的过程中失去自我的边界",
+          "以情绪化的判断代替清醒客观的认知",
+          "将直觉与投射混淆，把自己的情绪归因于他人"
+        ]
+      },
+      "Elemental": "Water of Water.",
+      "Affirmation": "\"I choose to be enabled, not disabled, by my strong emotions.\"",
+      "Questions to Ask": [
+        "How do I handle strong emotions?",
+        "To what extent am I a victim of my own feelings?",
+        "How can I move from reflection to action?"
+      ]
+    },
+    {
+      "name": "圣杯国王",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "img": "c14.jpg",
+      "fortune_telling": [
+        "一位情感成熟、智慧而富有同理心的男性将带来重要影响",
+        "以成熟的情感智慧引导重要的关系和决策"
+      ],
+      "keywords": [
+        "情感成熟",
+        "智慧",
+        "包容",
+        "稳定"
+      ],
+      "meanings": {
+        "light": [
+          "以成熟的情感智慧引导自己和他人",
+          "在情绪的波动中保持内心深处的稳定与平衡",
+          "以包容和理解的心包容他人的不完美",
+          "将丰富的情感体验转化为真正的人生智慧"
+        ],
+        "shadow": [
+          "以冷静的外表压抑而非真正处理情绪",
+          "以情感操控代替真实的沟通和联结",
+          "在情绪的暗流中迷失，以理智逃避感受",
+          "将情感的成熟变成一种控制他人的工具"
+        ]
+      },
+      "Elemental": "Fire of Water.",
+      "Affirmation": "\"I strive to be stable and fair-minded.\"",
+      "Questions to Ask": [
+        "What wise person could be consulted for good advice?",
+        "How can I make sure I'm being as objective and fair as possible?",
+        "To what extent am I capable of keeping a \"stiff upper lip?\""
+      ]
+    },
+    {
+      "name": "宝剑王牌",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s01.jpg",
+      "fortune_telling": [
+        "真相和清晰度即将以锋利的方式显现",
+        "一个需要以智慧和清醒应对的全新开始"
+      ],
+      "keywords": [
+        "真相",
+        "清晰",
+        "智慧",
+        "突破"
+      ],
+      "meanings": {
+        "light": [
+          "以清晰的思维和敏锐的洞察力穿透迷雾",
+          "勇于说出需要被说出的真相",
+          "以智慧和理性为武器，斩断阻碍前行的枷锁",
+          "在混乱中找到清晰的方向和核心的真实"
+        ],
+        "shadow": [
+          "以犀利的言语伤害他人，以真相为名行攻击之实",
+          "过度依赖理性，忽视情感和直觉的重要性",
+          "以冷酷和批判的态度对待本需要温柔的情境",
+          "用言语的力量制造伤害而非带来疗愈"
+        ]
+      },
+      "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+      "Astrology": "Libra, Aquarius, Gemini",
+      "Affirmation": "\"I take the time to think things through.\"",
+      "Questions to Ask": [
+        "If I made my decision purely based on reason and logic, what would my decision be?",
+        "What do I think about my own problem-solving ability?",
+        "Who can supply me with the pure and simple facts?"
+      ]
+    },
+    {
+      "name": "宝剑二",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s02.jpg",
+      "fortune_telling": [
+        "一个两难的困境正在考验你的判断力",
+        "暂时的停滞和等待有时是最明智的选择"
+      ],
+      "keywords": [
+        "困境",
+        "权衡",
+        "回避",
+        "僵局"
+      ],
+      "meanings": {
+        "light": [
+          "在复杂的情境中保持内心的平静与稳定",
+          "给自己时间和空间做出真正清醒的判断",
+          "以平衡和客观的态度权衡所有的选项",
+          "在时机未到时以耐心守护内心的平静"
+        ],
+        "shadow": [
+          "以鸵鸟的姿态回避需要正视的困难抉择",
+          "在内心深处知道答案，却拒绝诚实地面对",
+          "以沉默和回避替代必要的沟通与面对",
+          "在僵局中固执地拒绝做出任何改变"
+        ]
+      },
+      "Numerology": "2 (The Other: duality, division, debate)",
+      "Astrology": "Moon in Libra",
+      "Affirmation": "\"I strive to see all sides of every issue.\"",
+      "Questions to Ask": [
+        "What information do I need to get past this impasse?",
+        "How can I get past being defensive and see the facts?",
+        "What viewpoints, other than my own, play a role in this situation?"
+      ]
+    },
+    {
+      "name": "宝剑三",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s03.jpg",
+      "fortune_telling": [
+        "一段心痛和悲伤是当下真实的课题",
+        "允许自己哀悼，然后带着智慧前行"
+      ],
+      "keywords": [
+        "心痛",
+        "悲伤",
+        "背叛",
+        "疗愈"
+      ],
+      "meanings": {
+        "light": [
+          "诚实地面对并充分感受真实存在的悲伤与痛苦",
+          "以真实的哀悼和释放推动内心深处的疗愈",
+          "将痛苦的经历转化为更深刻的同理心与智慧",
+          "以勇气直视让你心痛的真相，而非继续回避"
+        ],
+        "shadow": [
+          "反复咀嚼悲伤，拒绝让疗愈的过程真正开始",
+          "以受害者的身份将痛苦变成长期的身份认同",
+          "将自己的痛苦归咎于所有人，回避自身的责任",
+          "在悲伤中麻木，以逃避代替真正的面对与修复"
+        ]
+      },
+      "Numerology": "3 (The Result: expression, productivity, output)",
+      "Astrology": "Saturn in Libra",
+      "Affirmation": "\"I learn from failures and setbacks.\"",
+      "Questions to Ask": [
+        "How can I get past my depression?",
+        "To what extent are my emotions a matter of choice?",
+        "How can I learn from the mistakes of the past?"
+      ]
+    },
+    {
+      "name": "宝剑四",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s04.jpg",
+      "fortune_telling": [
+        "休息和恢复是当下最重要的事情",
+        "给自己的身心一段真正需要的喘息时光"
+      ],
+      "keywords": [
+        "休息",
+        "恢复",
+        "静思",
+        "疗愈"
+      ],
+      "meanings": {
+        "light": [
+          "以主动休息和静养恢复身心的能量",
+          "在安静中整合过去一段时间的经历和感受",
+          "给自己一段不被打扰的空间去独处和思考",
+          "以暂停和内省为下一阶段的行动积蓄力量"
+        ],
+        "shadow": [
+          "以休息为名逃避无法再回避的重要问题",
+          "将消极退缩包装成需要内省的正当理由",
+          "在不该停下来的时候以疲惫为借口退出",
+          "以孤立和回避替代需要主动面对的情境"
+        ]
+      },
+      "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+      "Astrology": "Jupiter in Libra",
+      "Affirmation": "\"I think before taking action.\"",
+      "Questions to Ask": [
+        "How long has it been since you deliberately took a \"time out?\"",
+        "How difficult is it for you to meditate?",
+        "What would happen if you simply refused to make a decision today?"
+      ]
+    },
+    {
+      "name": "宝剑五",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s05.jpg",
+      "fortune_telling": [
+        "一场胜而不荣的冲突即将或已经到来",
+        "代价过高的胜利是否真的值得，需要认真思量"
+      ],
+      "keywords": [
+        "冲突",
+        "失败",
+        "妥协",
+        "代价"
+      ],
+      "meanings": {
+        "light": [
+          "以清醒的眼光评估胜利的真实代价",
+          "在该退让的时候选择有智慧的妥协",
+          "以更高的视角看待冲突，而非局限于输赢",
+          "从失败中汲取真正有价值的经验和教训"
+        ],
+        "shadow": [
+          "不择手段地追求胜利，不顾造成的伤害",
+          "在已经失去的情况下仍不愿放手",
+          "以屈辱感驱动复仇，让冲突不断升级",
+          "将自尊和面子凌驾于真正重要的关系之上"
+        ]
+      },
+      "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+      "Astrology": "Venus in Aquarius",
+      "Affirmation": "\"Even as I care for myself, I am mindful of the needs of others.\"",
+      "Questions to Ask": [
+        "How do I behave when I win? What does that say about me?",
+        "How can I do what's necessary without making others feel defeated?",
+        "What's the difference between selfish action and acting in my own best interest?"
+      ]
+    },
+    {
+      "name": "宝剑六",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s06.jpg",
+      "fortune_telling": [
+        "一段平静过渡的时期正在到来",
+        "从动荡走向平静，前方有更稳定的水域"
+      ],
+      "keywords": [
+        "过渡",
+        "平静",
+        "离开",
+        "疗愈"
+      ],
+      "meanings": {
+        "light": [
+          "以平静和理性引导自己从动荡中走向稳定",
+          "接受必要的改变，向着更平静的方向前行",
+          "以理智和清醒做出推动疗愈的务实决定",
+          "在过渡的旅程中找到内心需要的平静与方向"
+        ],
+        "shadow": [
+          "带着未解决的问题逃离，换了环境却未解决根本",
+          "在需要做出改变时犹豫不决，一拖再拖",
+          "以表面的平静压制仍需要被面对的情绪",
+          "在新的处境中重复着旧有的模式"
+        ]
+      },
+      "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+      "Astrology": "Mercury in Aquarius",
+      "Affirmation": "\"I keep an open mind.\"",
+      "Questions to Ask": [
+        "What assumptions govern my thinking?",
+        "How willing am I to lend aid to others? To request it when I need it?",
+        "How prepared am I to deal with change? With unexpected outcomes?"
+      ]
+    },
+    {
+      "name": "宝剑七",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s07.jpg",
+      "fortune_telling": [
+        "谨慎行事，有人可能不如他们表面看起来诚实",
+        "在需要策略的情境中，智慧与诚信同样重要"
+      ],
+      "keywords": [
+        "策略",
+        "欺骗",
+        "谨慎",
+        "独行"
+      ],
+      "meanings": {
+        "light": [
+          "在复杂的情境中以智慧和策略达成目标",
+          "在行动之前充分做好调查和准备",
+          "以清醒的眼光识别周围真实存在的风险",
+          "有时独立行动比寻求共识更有效率"
+        ],
+        "shadow": [
+          "以欺骗和投机取巧代替诚实和正直",
+          "回避责任，留下烂摊子让他人来收拾",
+          "以小聪明和心机替代真正的智慧与能力",
+          "以自私的目的合理化不道德的行为"
+        ]
+      },
+      "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+      "Astrology": "Moon in Aquarius",
+      "Affirmation": "\"I hold myself to the highest ethical standards.\"",
+      "Questions to Ask": [
+        "What assumptions am I making?",
+        "How well-defined is my sense of ethics?",
+        "How should I respond when I know others are breaking the rules?"
+      ]
+    },
+    {
+      "name": "宝剑八",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s08.jpg",
+      "fortune_telling": [
+        "你比你以为的更有能力改变当下的处境",
+        "那些束缚你的枷锁，有许多只存在于你的心中"
+      ],
+      "keywords": [
+        "束缚",
+        "受困",
+        "心理局限",
+        "受害"
+      ],
+      "meanings": {
+        "light": [
+          "以清醒的眼光识别那些真实存在的束缚",
+          "质疑那些关于自身局限的根深蒂固的信念",
+          "以勇气尝试走出那些看似无路可走的局面",
+          "寻求外部的帮助以打破当下的困境"
+        ],
+        "shadow": [
+          "以受害者的姿态放弃改变处境的任何努力",
+          "将自我设定的心理限制视为客观存在的事实",
+          "以无助感逃避做出任何有实际意义的改变",
+          "在可以求助的情况下固执地选择孤立无援"
+        ]
+      },
+      "Numerology": "8 (The Action: movement, outer work, swiftness)",
+      "Astrology": "Jupiter in Gemini",
+      "Affirmation": "\"I know my own limits.\"",
+      "Questions to Ask": [
+        "Who's empowered to cut through the red tape?",
+        "What, exactly, are the obstacles? What resources, exactly, are needed to move them?",
+        "To what extent is your powerlessness a matter of attitude?"
+      ]
+    },
+    {
+      "name": "宝剑九",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s09.jpg",
+      "fortune_telling": [
+        "夜深时分的焦虑和忧思需要被温柔地对待",
+        "那些让你辗转难眠的想法值得被认真倾听"
+      ],
+      "keywords": [
+        "焦虑",
+        "忧虑",
+        "负罪感",
+        "内心挣扎"
+      ],
+      "meanings": {
+        "light": [
+          "诚实地面对那些在深夜袭来的忧虑与恐惧",
+          "以温柔和慈悲对待自己真实存在的情绪痛苦",
+          "寻求专业的支持来应对过于沉重的内心负担",
+          "以实际的行动来缓解那些让你担忧的事情"
+        ],
+        "shadow": [
+          "在忧虑的黑洞中越陷越深，无法自拔",
+          "以灾难化的思维将可能性最坏化",
+          "以不必要的负罪感惩罚自己，无法原谅自我",
+          "让恐惧和焦虑主宰所有的判断和决定"
+        ]
+      },
+      "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+      "Astrology": "Mars in Gemini",
+      "Affirmation": "\"I do not worry about what I cannot control.\"",
+      "Questions to Ask": [
+        "What role does worry play in your current situation?",
+        "To what other ends might you devote the energy you're giving to anxiety?",
+        "How can you know when it's time to stop thinking and start acting?"
+      ]
+    },
+    {
+      "name": "宝剑十",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s10.jpg",
+      "fortune_telling": [
+        "一段痛苦的结束是真正新生的必经之路",
+        "黑夜已到最深处，黎明的光即将到来"
+      ],
+      "keywords": [
+        "终结",
+        "失败",
+        "放下",
+        "新生"
+      ],
+      "meanings": {
+        "light": [
+          "以清醒的眼光承认一段关系或处境已走到终点",
+          "让这段痛苦的结局彻底完成，而非停留在中间",
+          "以坚定的意志从最困难的处境中重新站立",
+          "用彻底的结束为真正的新开始腾出空间"
+        ],
+        "shadow": [
+          "以自怜和戏剧化的方式夸大当下的痛苦",
+          "在局势已明朗时仍拒绝接受必然的结果",
+          "将自己塑造成悲剧的主角，沉浸于失败的叙事",
+          "让这次的失败成为永久放弃的理由"
+        ]
+      },
+      "Numerology": "10 (The End: finality, completion, exhaustion)",
+      "Astrology": "Sun in Gemini",
+      "Affirmation": "\"When my limits are exceeded, I take action on my own behalf.\"",
+      "Questions to Ask": [
+        "What are the signs that the time for debate is over?",
+        "How can you tell when interest has given way to obsession?",
+        "When your own limits are reached, where can you turn for aid?"
+      ]
+    },
+    {
+      "name": "宝剑侍从",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s11.jpg",
+      "fortune_telling": [
+        "一个尖锐而充满好奇的信息或人即将出现",
+        "以敏锐的智识好奇心探索新的领域和想法"
+      ],
+      "keywords": [
+        "好奇",
+        "敏锐",
+        "真相",
+        "沟通"
+      ],
+      "meanings": {
+        "light": [
+          "以敏锐的智识好奇心探索复杂的想法和信息",
+          "勇于提出那些重要却令人不舒服的问题",
+          "以直接和诚实的方式进行真实有效的沟通",
+          "用清晰的思维快速识别情境中的核心问题"
+        ],
+        "shadow": [
+          "以八卦和窥探的好奇心替代真正有深度的探索",
+          "说话方式过于直接和尖锐，无意中伤害他人",
+          "在缺乏完整信息的情况下仓促做出判断",
+          "以批判和挑剔替代真正建设性的贡献"
+        ]
+      },
+      "Elemental": "Earth of Air.",
+      "Affirmation": "\"I am ready to make good decisions.\"",
+      "Questions to Ask": [
+        "How comfortable are you with revealing your own ignorance?",
+        "What are the marks of a good student?",
+        "To what extent are you open to new information?"
+      ]
+    },
+    {
+      "name": "宝剑骑士",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s12.jpg",
+      "fortune_telling": [
+        "一位行动迅速、思维敏锐的人将带来重要影响",
+        "快刀斩乱麻的时候已经到来，别再犹豫"
+      ],
+      "keywords": [
+        "果断",
+        "直接",
+        "迅速",
+        "智识"
+      ],
+      "meanings": {
+        "light": [
+          "以迅速和果断的行动应对需要立即处理的情境",
+          "以直接和清晰的沟通方式推动事情快速推进",
+          "以强大的智识力量和分析能力解决复杂的问题",
+          "在需要行动的时候毫不犹豫地全力以赴"
+        ],
+        "shadow": [
+          "横冲直撞，完全不考虑行动带来的影响",
+          "以傲慢的自信取代真正的智慧和谨慎",
+          "说话太过直接和犀利，造成不必要的伤害",
+          "在没有充分思考的情况下做出冲动的决定"
+        ]
+      },
+      "Elemental": "Air of Air.",
+      "Affirmation": "\"I temper my insights with tact.\"",
+      "Questions to Ask": [
+        "What do I really need to know?",
+        "To what extent have I investigated the facts behind my situation?",
+        "How can I share what I know without alienating others?"
+      ]
+    },
+    {
+      "name": "宝剑王后",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s13.jpg",
+      "fortune_telling": [
+        "一位思维清晰、直率而智慧的女性将带来重要影响",
+        "以清醒的智慧和直接的沟通应对重要的情境"
+      ],
+      "keywords": [
+        "清晰",
+        "智慧",
+        "直率",
+        "独立"
+      ],
+      "meanings": {
+        "light": [
+          "以清醒的智慧和客观的眼光看穿事物的本质",
+          "以直接和诚实的方式说出需要被说的真相",
+          "以独立和清醒的判断力做出重要的决定",
+          "从丰富的人生经历中提炼出真正的智慧"
+        ],
+        "shadow": [
+          "以冷漠和疏离掩盖内心深处的情感需求",
+          "将直率变成伤害他人的武器，不顾感受",
+          "以苦涩和批判的眼光看待世界和他人",
+          "将过去的痛苦转化成对亲密关系的高墙"
+        ]
+      },
+      "Elemental": "Water of Air.",
+      "Affirmation": "\"I make the truth easier to hear.\"",
+      "Questions to Ask": [
+        "What do I have a knack for? How might my special gift prove useful now?",
+        "To what extent am I capable of saying what needs to be said?",
+        "What is the best possible way to say what I want to say?"
+      ]
+    },
+    {
+      "name": "宝剑国王",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "img": "s14.jpg",
+      "fortune_telling": [
+        "一位思维清晰、公正而有权威的男性将带来影响",
+        "以成熟的理性智慧和清晰的判断力引领重要决策"
+      ],
+      "keywords": [
+        "权威",
+        "公正",
+        "清晰",
+        "智慧"
+      ],
+      "meanings": {
+        "light": [
+          "以成熟的理性和公正的眼光做出重要的决断",
+          "以清晰的沟通和权威的判断力赢得真正的信任",
+          "将丰富的知识和经验转化为对他人有价值的指引",
+          "以真理和公正为核心价值引领重要的讨论"
+        ],
+        "shadow": [
+          "以冷酷和严苛的标准对待无法达到预期的人",
+          "将理性和权威凌驾于情感和人性之上",
+          "以独裁的方式强制推行自己的判断和意志",
+          "用智识优越感贬低和压制不同的声音与意见"
+        ]
+      },
+      "Elemental": "Fire of Air.",
+      "Affirmation": "\"My word is my bond.\"",
+      "Questions to Ask": [
+        "What would your decision be if you had to render a binding verdict right now?",
+        "How comfortable are you saying exactly what you mean? How often do you temper what you have to say for fear of offending others?",
+        "If you were to ask others, \"What's my area of expertise?\" what would they say?"
+      ]
+    },
+    {
+      "name": "权杖王牌",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w01.jpg",
+      "fortune_telling": [
+        "创意的火花已点燃，是行动的时候了",
+        "一个充满潜力的全新开始正在等待"
+      ],
+      "keywords": [
+        "创意",
+        "热情",
+        "启动",
+        "勇气"
+      ],
+      "meanings": {
+        "light": [
+          "以充沛的热情和勇气拥抱全新的开始",
+          "让内心的创造力尽情燃烧和流动",
+          "鼓起勇气迈出第一步，行动胜于犹豫",
+          "以真实的激情为引擎，启动新的旅程"
+        ],
+        "shadow": [
+          "有开始的热情却缺乏持续推进的耐力",
+          "创意不断涌现，却难以聚焦落地",
+          "以激情为名做出冲动而欠缺考虑的决定",
+          "让恐惧失败的念头扑灭了内心的火苗"
+        ]
+      },
+      "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+      "Astrology": "Aries, Leo, Sagittarius",
+      "Affirmation": "\"I jump at the opportunity to pursue my heart's desire.\"",
+      "Questions to Ask": [
+        "What do I really want, more than anything else?",
+        "What happens if I let this opportunity pass me by?",
+        "How clearly have I defined my directions, values, and goals?"
+      ]
+    },
+    {
+      "name": "权杖二",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w02.jpg",
+      "fortune_telling": [
+        "一个重要的决策时刻已经到来",
+        "更广阔的世界正在召唤你去探索"
+      ],
+      "keywords": [
+        "规划",
+        "展望",
+        "决断",
+        "探索"
+      ],
+      "meanings": {
+        "light": [
+          "站在高处，以更宏观的视野规划未来",
+          "在做出决定之前充分衡量所有可能性",
+          "将目光投向更远处，超越当下的局限",
+          "鼓起前往未知领域探索的勇气"
+        ],
+        "shadow": [
+          "过度分析，陷入无法做出决定的瘫痪",
+          "在安全的舒适圈中犹豫不决，错失时机",
+          "好高骛远，对眼前的现实缺乏脚踏实地",
+          "因未知的风险而放弃真正有价值的机遇"
+        ]
+      },
+      "Numerology": "2 (The Other: division, debate, duality)",
+      "Astrology": "Mars in Aries",
+      "Affirmation": "\"With my goals in mind, I make confident choices.\"",
+      "Questions to Ask": [
+        "In a conflict, how do you decide who wins?",
+        "What values govern your decision-making process?",
+        "What choice will you make if you make no choice at all?"
+      ]
+    },
+    {
+      "name": "权杖三",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w03.jpg",
+      "fortune_telling": [
+        "你播下的种子即将开始发芽结果",
+        "拓展视野，更远的彼岸正在向你敞开"
+      ],
+      "keywords": [
+        "拓展",
+        "等待",
+        "前瞻",
+        "进展"
+      ],
+      "meanings": {
+        "light": [
+          "耐心等待早先付出努力所带来的回报",
+          "以长远的眼光规划下一阶段的扩展",
+          "探索新的领域和合作可能",
+          "在已取得的成果基础上继续稳步前进"
+        ],
+        "shadow": [
+          "等待结果时缺乏耐心，急于放弃",
+          "因等待而陷入焦虑，无法保持平静",
+          "过早放弃已经在生长的事物",
+          "不愿意接受完成一件事所需要的时间"
+        ]
+      },
+      "Numerology": "3 (The Result: expression, productivity, output)",
+      "Astrology": "Sun in Aries",
+      "Affirmation": "\"I take the steps necessary to put my plans in action.\"",
+      "Questions to Ask": [
+        "How can you make a habit of breaking your habits?",
+        "How can you be a decisive leader in this circumstance?",
+        "What's your action plan for the next week, month, year, or decade?"
+      ]
+    },
+    {
+      "name": "权杖四",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w04.jpg",
+      "fortune_telling": [
+        "值得庆祝的好事正在向你走来",
+        "共同创造的美好正在开花结果"
+      ],
+      "keywords": [
+        "庆祝",
+        "和谐",
+        "归属",
+        "里程碑"
+      ],
+      "meanings": {
+        "light": [
+          "真心庆祝一个重要里程碑的达成",
+          "在有爱的环境中感受真正的归属感",
+          "与重要的人共同分享成功带来的喜悦",
+          "建立稳固的基础，让美好的事物生根"
+        ],
+        "shadow": [
+          "在内心深处仍缺乏真正的安全感",
+          "以热闹的庆祝逃避尚未解决的问题",
+          "将和谐的表象维持在内心的紧张之上",
+          "无法真正放松，享受应得的喜悦与休息"
+        ]
+      },
+      "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+      "Astrology": "Venus in Aries",
+      "Affirmation": "\"My contributions are worthy of celebration.\"",
+      "Questions to Ask": [
+        "To what extent am I doing my part?",
+        "What kind of recognition would be most meaningful?",
+        "How might a celebration now impact community morale?"
+      ]
+    },
+    {
+      "name": "权杖五",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w05.jpg",
+      "fortune_telling": [
+        "一场竞争或冲突即将考验你的立场",
+        "意见的碰撞中蕴含着成长的契机"
+      ],
+      "keywords": [
+        "竞争",
+        "冲突",
+        "挑战",
+        "磨砺"
+      ],
+      "meanings": {
+        "light": [
+          "在健康的竞争中激发出最好的自己",
+          "以开放的心态迎接不同意见的碰撞",
+          "将摩擦和挑战视为磨砺能力的机遇",
+          "在分歧中寻找真正有创造力的解决方案"
+        ],
+        "shadow": [
+          "制造不必要的竞争和摩擦",
+          "为了争而争，失去对真正目标的关注",
+          "无法在团队中有效合作与沟通",
+          "以攻击代替建设，以破坏代替对话"
+        ]
+      },
+      "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+      "Astrology": "Saturn in Leo",
+      "Affirmation": "\"I can express dissent in constructive ways.\"",
+      "Questions to Ask": [
+        "To what extent is your current issue worth fighting for?",
+        "What alternatives are there to outright conflict?",
+        "What happens in a \"fair fight?\" How can you keep this fight fair?"
+      ]
+    },
+    {
+      "name": "权杖六",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w06.jpg",
+      "fortune_telling": [
+        "你的努力即将获得公开的认可与赞誉",
+        "胜利属于那些坚持到底的人"
+      ],
+      "keywords": [
+        "胜利",
+        "认可",
+        "荣耀",
+        "自信"
+      ],
+      "meanings": {
+        "light": [
+          "以优雅的姿态接受应得的认可与赞誉",
+          "允许自己为取得的成就感到真实的骄傲",
+          "以自信的姿态展示自己的价值和能力",
+          "用自己的成功激励和带动身边的人"
+        ],
+        "shadow": [
+          "将认可与赞美视为自我价值的唯一来源",
+          "在追求外界肯定的过程中失去内在的声音",
+          "以傲慢遮掩对失败的深层恐惧",
+          "将成功建立在他人的失败之上"
+        ]
+      },
+      "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+      "Astrology": "Jupiter in Leo",
+      "Affirmation": "\"I value sincere praise.\"",
+      "Questions to Ask": [
+        "What kind of recognition do I crave? Why?",
+        "How freely do I praise the achievements of others?",
+        "What happens when the parade is over?"
+      ]
+    },
+    {
+      "name": "权杖七",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w07.jpg",
+      "fortune_telling": [
+        "坚守你的立场，即便面临巨大压力",
+        "你的价值观和信念值得被捍卫"
+      ],
+      "keywords": [
+        "坚守",
+        "立场",
+        "防御",
+        "勇气"
+      ],
+      "meanings": {
+        "light": [
+          "以坚定的勇气守护自己真正重视的事物",
+          "在众多质疑声中坚持自己的立场",
+          "从过往挑战的经历中汲取力量",
+          "在竞争激烈的环境中展现真实的能力"
+        ],
+        "shadow": [
+          "将正当的防守变成了无谓的攻击",
+          "在不值得捍卫的事情上消耗珍贵的能量",
+          "用偏执和固执代替必要的灵活与适应",
+          "因防御心太强而无法接受有价值的反馈"
+        ]
+      },
+      "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+      "Astrology": "Mars in Leo",
+      "Affirmation": "\"I am willing to take a stand for what I believe in.\"",
+      "Questions to Ask": [
+        "When do you feel most threatened? When do you get defensive?",
+        "How capable are you of defending yourself?",
+        "What kinds of beliefs are worth defending?"
+      ]
+    },
+    {
+      "name": "权杖八",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w08.jpg",
+      "fortune_telling": [
+        "一切即将快速推进，做好准备",
+        "等待已久的消息或结果即将到来"
+      ],
+      "keywords": [
+        "快速",
+        "行动",
+        "进展",
+        "沟通"
+      ],
+      "meanings": {
+        "light": [
+          "以迅捷的行动力推动事情快速前进",
+          "抓住稍纵即逝的好时机，当机立断",
+          "保持清晰高效的沟通，让信息流畅传递",
+          "享受万事同时推进时的充沛能量与活力"
+        ],
+        "shadow": [
+          "在缺乏方向的情况下鲁莽行事",
+          "行动太快，忽视了重要的细节和影响",
+          "被涌来的信息和任务淹没，失去掌控感",
+          "因急于求成而在重要事项上出现失误"
+        ]
+      },
+      "Numerology": "8 (The Action: movement, outer work, swiftness)",
+      "Astrology": "Mercury in Sagittarius",
+      "Affirmation": "\"I adapt quickly to change.\"",
+      "Questions to Ask": [
+        "How quickly to you adapt to change?",
+        "What would your response be to overwhelming, sudden change?",
+        "What changes are on your horizon? How well have you prepared for them?"
+      ]
+    },
+    {
+      "name": "权杖九",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w09.jpg",
+      "fortune_telling": [
+        "坚持下去，胜利已经近在眼前",
+        "过去的伤痛让你更加坚韧，而非脆弱"
+      ],
+      "keywords": [
+        "坚韧",
+        "警觉",
+        "坚持",
+        "边界"
+      ],
+      "meanings": {
+        "light": [
+          "以从困境中磨砺出的韧性继续前行",
+          "在疲惫中找到继续坚持的深层理由",
+          "建立必要的健康边界，保护自己的能量",
+          "以清醒的警觉应对最后阶段的挑战"
+        ],
+        "shadow": [
+          "因过去的创伤而对所有人都保持戒备",
+          "在疲惫与偏执中做出不理智的防御判断",
+          "明明已近终点，却在最后关头放弃",
+          "以受害者的身份拒绝承担自己的责任"
+        ]
+      },
+      "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+      "Astrology": "Moon in Sagittarius",
+      "Affirmation": "\"When the going gets tough, I stay the course.\"",
+      "Questions to Ask": [
+        "How do you cope when things get really tough?",
+        "When you get low, what encourages you to go on?",
+        "At what point should you be able to let this situation go?"
+      ]
+    },
+    {
+      "name": "权杖十",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w10.jpg",
+      "fortune_telling": [
+        "你肩上的担子已太重，是时候学会放下",
+        "过度承担最终只会两败俱伤"
+      ],
+      "keywords": [
+        "负担",
+        "过载",
+        "责任",
+        "疲惫"
+      ],
+      "meanings": {
+        "light": [
+          "以最后的力气将重要的事情坚持到底",
+          "清醒地认识到自己所承担的真实重量",
+          "以勇气主动委托、分担或放下部分责任",
+          "在完成之后给自己充分休息的权利"
+        ],
+        "shadow": [
+          "承担了远超自己能力范围的责任",
+          "以牺牲自我为代价来满足他人的期望",
+          "拒绝寻求帮助，独自扛下不必要的重担",
+          "在超负荷运转中失去了对生活本身的热情"
+        ]
+      },
+      "Numerology": "10 (The End: finality, completion, exhaustion)",
+      "Astrology": "Saturn in Sagittarius",
+      "Affirmation": "\"I respect my own limits.\"",
+      "Questions to Ask": [
+        "How will you know when you reach the end of your rope?",
+        "How easily do you say no to new projects and requests?",
+        "What projects could you delegate...or eliminate?"
+      ]
+    },
+    {
+      "name": "权杖侍从",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w11.jpg",
+      "fortune_telling": [
+        "一个充满热情的好消息即将到来",
+        "年轻的活力和创意将为局面注入新鲜能量"
+      ],
+      "keywords": [
+        "热忱",
+        "好奇",
+        "探索",
+        "潜力"
+      ],
+      "meanings": {
+        "light": [
+          "以孩子般的好奇心和热忱拥抱新事物",
+          "在行动之前充分探索和学习",
+          "以开放的心态接受新的想法和体验",
+          "让热情点燃身边人的好奇心与行动力"
+        ],
+        "shadow": [
+          "三分钟热度，无法将热情转化为持续的行动",
+          "在缺乏经验的情况下过度自信",
+          "说得多做得少，停留在计划而非执行",
+          "因鲁莽冲动而在尝试中造成不必要的损失"
+        ]
+      },
+      "Elemental": "Earth of Fire.",
+      "Affirmation": "\"I can do this.\"",
+      "Questions to Ask": [
+        "How easily do you admit your own inexperience?",
+        "How can you be a better student or employee?",
+        "What qualities would make a total beginner's voyage of discovery easier?"
+      ]
+    },
+    {
+      "name": "权杖骑士",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w12.jpg",
+      "fortune_telling": [
+        "一位充满活力和魅力的行动者即将出现",
+        "快速而充满激情的推进期已经到来"
+      ],
+      "keywords": [
+        "行动",
+        "热情",
+        "冒险",
+        "魅力"
+      ],
+      "meanings": {
+        "light": [
+          "以大胆而充满激情的行动追求目标",
+          "用感染力强的能量激励他人一起行动",
+          "在机遇出现时迅速把握，不犹豫拖延",
+          "以冒险者的精神探索未知的可能性"
+        ],
+        "shadow": [
+          "行动鲁莽，缺乏对后果的深入思考",
+          "将激情误认为方向，横冲直撞",
+          "无法在一件事上保持足够长时间的专注",
+          "为了刺激而刺激，忽视真正重要的责任"
+        ]
+      },
+      "Elemental": "Air of Fire.",
+      "Affirmation": "\"I can lead the way to success.\"",
+      "Questions to Ask": [
+        "To what extent have you defined your ultimate goal?",
+        "What's the fastest way to get the job done? Is this necessarily the best way?",
+        "How long has it been since you looked back to see if others really are following your lead?"
+      ]
+    },
+    {
+      "name": "权杖王后",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w13.jpg",
+      "fortune_telling": [
+        "一位充满魅力、自信而慷慨的女性将带来重要影响",
+        "以热情和自信展现真实的自我"
+      ],
+      "keywords": [
+        "自信",
+        "魅力",
+        "慷慨",
+        "领导力"
+      ],
+      "meanings": {
+        "light": [
+          "以感染力强的热情和自信引领他人",
+          "在创意和行动上展现出真正的领导力",
+          "大方慷慨地分享自己的才华与资源",
+          "以真实而充满活力的个人魅力吸引他人"
+        ],
+        "shadow": [
+          "以傲慢和控制欲压制他人的成长",
+          "将自身的不安全感转化为对他人的苛刻",
+          "用热情的外表掩盖内心深处的嫉妒",
+          "在不需要领导的场合强行主导局面"
+        ]
+      },
+      "Elemental": "Water of Fire.",
+      "Affirmation": "\"I use my influence to promote unity.\"",
+      "Questions to Ask": [
+        "How attentive am I?",
+        "How can I draw people's attention to what we have in common?",
+        "To what extent am I able to convince people to do what I want them to do?"
+      ]
+    },
+    {
+      "name": "权杖国王",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "img": "w14.jpg",
+      "fortune_telling": [
+        "一位有远见、有魄力的领导者将进入你的生活",
+        "以成熟的智慧和热情引领重要的事业"
+      ],
+      "keywords": [
+        "远见",
+        "领导力",
+        "魄力",
+        "成就"
+      ],
+      "meanings": {
+        "light": [
+          "以成熟的智慧引导热情，带领他人走向目标",
+          "以身作则，用行动展现真正的领导力",
+          "将远大的愿景转化为切实可行的计划",
+          "以慷慨和包容激发团队中每个人的潜能"
+        ],
+        "shadow": [
+          "以权威压制团队中的创造力和多样性",
+          "将个人的热情和愿景强加于所有人",
+          "做出鲁莽的决策，不听取他人的意见",
+          "用控制和强势替代真正的领导与影响力"
+        ]
+      },
+      "Elemental": "Fire of Fire",
+      "Affirmation": "\"I use my authority and experience to get things done faster.\"",
+      "Questions to Ask": [
+        "How confident a leader am I?",
+        "How can I project more confidence?",
+        "How can I offer my expertise in ways that inspire others to follow me?"
+      ]
+    },
+    {
+      "name": "星币王牌",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p01.jpg",
+      "fortune_telling": [
+        "一个稳固的物质新开始正在向你呈现",
+        "现实层面的机遇即将具象化为实际的成果"
+      ],
+      "keywords": [
+        "繁荣",
+        "机遇",
+        "物质",
+        "新开始"
+      ],
+      "meanings": {
+        "light": [
+          "以踏实的行动开启一个充满潜力的物质新篇章",
+          "把握一个能带来实际回报的具体机遇",
+          "为未来的繁荣和稳定打下坚实的基础",
+          "以感恩的心接受生命在物质层面的慷慨馈赠"
+        ],
+        "shadow": [
+          "仅关注物质的获取，忽视精神层面的滋养",
+          "因过分谨慎而错失真实存在的好机遇",
+          "将金钱和物质安全感视为幸福的唯一来源",
+          "在机会来临时因贪婪或恐惧而无法行动"
+        ]
+      },
+      "Numerology": "1 (The Origin: the starting point, the seed, opportunity)",
+      "Astrology": "Capricorn, Taurus, Virgo",
+      "Affirmation": "\"I am open to and thankful for my blessings.\"",
+      "Questions to Ask": [
+        "If I made my decision based solely on practical concerns, what would my decision be?",
+        "What resources are available to me?",
+        "What will be the physical and financial impact of my decisions?"
+      ]
+    },
+    {
+      "name": "星币二",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p02.jpg",
+      "fortune_telling": [
+        "生活中需要同时兼顾多个重要的事项",
+        "灵活和适应能力将是当下最重要的品质"
+      ],
+      "keywords": [
+        "平衡",
+        "灵活",
+        "适应",
+        "变动"
+      ],
+      "meanings": {
+        "light": [
+          "以灵活的心态和适应力应对生活的多重挑战",
+          "在变动和不确定中保持内心的弹性与平衡",
+          "善于同时处理多个事项，保持轻松的节奏",
+          "以幽默和随遇而安的态度面对日常的起伏"
+        ],
+        "shadow": [
+          "试图同时做好所有事情，结果样样都做不好",
+          "以忙碌和混乱代替真正重要的专注和深入",
+          "在生活的压力下失去内心的稳定和平衡",
+          "在不断的变动中逃避做出重要的承诺"
+        ]
+      },
+      "Numerology": "2 (The Other: duality, division, debate)",
+      "Astrology": "Jupiter in Capricorn",
+      "Affirmation": "\"Before taking action, I consider costs.\"",
+      "Questions to Ask": [
+        "What values govern my decisions?",
+        "How willing am I to sacrifice a little pleasure now in order to have more pleasure later on?",
+        "Given my current situation, which course of action will give me more of what I really need?"
+      ]
+    },
+    {
+      "name": "星币三",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p03.jpg",
+      "fortune_telling": [
+        "认真的技艺和合作将带来令人满意的成果",
+        "你的专业能力正在获得应有的认可"
+      ],
+      "keywords": [
+        "协作",
+        "技艺",
+        "认可",
+        "专业"
+      ],
+      "meanings": {
+        "light": [
+          "以精益求精的匠人精神不断提升技艺",
+          "在团队协作中发挥出各自最擅长的专业能力",
+          "虚心听取反馈，将批评转化为成长的养分",
+          "以真实的专业能力赢得他人真心的信任与认可"
+        ],
+        "shadow": [
+          "在团队工作中缺乏真正的协作精神",
+          "以平庸的表现取代真正的精益求精",
+          "无法接受有价值的批评，以防御替代学习",
+          "独自埋头苦干，拒绝寻求需要的支持与帮助"
+        ]
+      },
+      "Numerology": "3 (The Result: expression, productivity, output)",
+      "Astrology": "Mars in Capricorn",
+      "Affirmation": "\"My work produces results.\"",
+      "Questions to Ask": [
+        "How can I get more done?",
+        "What's expected of me? How large a role do I play in controlling those expectations?",
+        "What's been agreed to? How well has that agreement been followed?"
+      ]
+    },
+    {
+      "name": "星币四",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p04.jpg",
+      "fortune_telling": [
+        "对物质安全的执着正在阻碍真正的成长",
+        "是时候检视你与金钱和物质之间的关系"
+      ],
+      "keywords": [
+        "掌控",
+        "安全感",
+        "执着",
+        "保守"
+      ],
+      "meanings": {
+        "light": [
+          "以负责任的态度管理和保护自己的资源",
+          "建立财务上的安全网和合理的边界",
+          "在慷慨给予之前确保自己的需求已被满足",
+          "以踏实保守的方式守护已有的成果"
+        ],
+        "shadow": [
+          "因过度执着于安全感而错失成长的机遇",
+          "以吝啬和贪婪对待金钱和物质资源",
+          "将对物质的掌控当作自我价值的核心",
+          "在恐惧失去的驱动下做出不健康的决定"
+        ]
+      },
+      "Numerology": "4 (The Status Quo: stability, equality, persistence)",
+      "Astrology": "Sun in Capricorn",
+      "Affirmation": "\"I use my resources wisely.\"",
+      "Questions to Ask": [
+        "What factors determine how conservative or generous you are?",
+        "What kinds of things must be preserved at all costs?",
+        "When is greediness or stinginess a good trait to have? When might generosity work against you?"
+      ]
+    },
+    {
+      "name": "星币五",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p05.jpg",
+      "fortune_telling": [
+        "一段物质或情感上的匮乏时期正在考验你",
+        "请记住，即便在困境中，帮助也并非遥不可及"
+      ],
+      "keywords": [
+        "匮乏",
+        "困境",
+        "孤立",
+        "寻求帮助"
+      ],
+      "meanings": {
+        "light": [
+          "在物质困境中寻求并接受来自他人的支持",
+          "以困难的经历培养真正的韧性与同理心",
+          "将匮乏的时期视为重新审视真正需求的契机",
+          "以谦逊的姿态寻求帮助，这本身就是勇气"
+        ],
+        "shadow": [
+          "在困境中以受害者的心态拒绝接受任何帮助",
+          "以过度的骄傲阻止自己寻求真正需要的支持",
+          "在精神层面的贫乏中沉沦，忽视内在的丰盛",
+          "将暂时的物质困境解读为永恒的命运与失败"
+        ]
+      },
+      "Numerology": "5 (The Catalyst: instability, resistance, confrontation)",
+      "Astrology": "Mercury in Taurus",
+      "Affirmation": "\"I have faith that what I need will appear.\"",
+      "Questions to Ask": [
+        "What critical resources do I lack?",
+        "What people or groups would come to my aid if I asked?",
+        "How might an impoverished spirit be impacting my physical or financial condition?"
+      ]
+    },
+    {
+      "name": "星币六",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p06.jpg",
+      "fortune_telling": [
+        "给予与接受的平衡将带来真正的丰盛",
+        "慷慨的心将使资源流向最需要它的地方"
+      ],
+      "keywords": [
+        "慷慨",
+        "给予",
+        "平衡",
+        "施受"
+      ],
+      "meanings": {
+        "light": [
+          "以慷慨的心将自己的丰盛与他人分享",
+          "在给予与接受之间保持健康的平衡",
+          "以实际的行动支持真正有需要的人",
+          "以公正和慷慨的方式分配和使用资源"
+        ],
+        "shadow": [
+          "以施舍换取控制权，用给予建立权力关系",
+          "在给予时附加不合理的条件和期望",
+          "接受帮助却缺乏真诚的感恩之心",
+          "将慷慨行为当作自我价值的表演舞台"
+        ]
+      },
+      "Numerology": "6 (The Adjustment: cooperation, collaboration, interaction)",
+      "Astrology": "Moon in Taurus",
+      "Affirmation": "\"Knowing I will receive more, I share my resources freely.\"",
+      "Questions to Ask": [
+        "How do I feel about charity? About giving it? About receiving it?",
+        "How can I know if I'm treating others fairly?",
+        "What could I give that no one else can?"
+      ]
+    },
+    {
+      "name": "星币七",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p07.jpg",
+      "fortune_telling": [
+        "你的投入正在逐步显现成果，耐心是关键",
+        "是时候停下来评估你的方向是否正确"
+      ],
+      "keywords": [
+        "耐心",
+        "评估",
+        "收获",
+        "等待"
+      ],
+      "meanings": {
+        "light": [
+          "以耐心和毅力等待长期投入所带来的真实回报",
+          "停下来客观评估当前进展和未来的方向",
+          "以长远的眼光看待成功，不为短期的慢而焦虑",
+          "在等待收获的过程中持续照料和培育中的事物"
+        ],
+        "shadow": [
+          "因缺乏耐心而在真正收获之前放弃",
+          "在评估时过度自我批判，看不见真实的进展",
+          "将等待变成拖延，用耐心的名义逃避行动",
+          "对付出的努力与实际的回报有不切实际的期待"
+        ]
+      },
+      "Numerology": "7 (The Motive: imagination, inner work, psychology)",
+      "Astrology": "Saturn in Taurus",
+      "Affirmation": "\"To stay on target, I measure my progress.\"",
+      "Questions to Ask": [
+        "To what extent have I fulfilled my own expectations?",
+        "What are the terms of success?",
+        "How can I be happier with the progress I've made?"
+      ]
+    },
+    {
+      "name": "星币八",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p08.jpg",
+      "fortune_telling": [
+        "专注和勤奋的练习将带来真正的精通",
+        "以匠人的精神投入当下正在做的事情"
+      ],
+      "keywords": [
+        "勤奋",
+        "专注",
+        "精通",
+        "技艺"
+      ],
+      "meanings": {
+        "light": [
+          "以匠人的精神和专注将技艺提升到精通的境界",
+          "在日复一日的练习中发现真正的满足感",
+          "以高标准要求自己，在细节中寻求卓越",
+          "以专注的投入将每一次工作都做到最好"
+        ],
+        "shadow": [
+          "以忙碌和努力的外表替代真正的成长与进步",
+          "陷入完美主义的泥沼，无法接受任何不完美",
+          "将重复性的工作变成逃避改变和创新的借口",
+          "只顾埋头苦干，忽视大方向和整体意义"
+        ]
+      },
+      "Numerology": "8 (The Action: movement, outer work, swiftness)",
+      "Astrology": "Sun in Virgo",
+      "Affirmation": "\"I give myself wholeheartedly to the task of the moment.\"",
+      "Questions to Ask": [
+        "How long has it been since you were \"lost in your work?\"",
+        "How can you improve your level of dedication and focus?",
+        "What work do you do best? What about that work appeals to you?"
+      ]
+    },
+    {
+      "name": "星币九",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p09.jpg",
+      "fortune_telling": [
+        "独立、优雅和物质上的丰盛已触手可及",
+        "享受自己努力换来的成果，你值得这一切"
+      ],
+      "keywords": [
+        "独立",
+        "丰盛",
+        "优雅",
+        "自律"
+      ],
+      "meanings": {
+        "light": [
+          "充分享受自己通过努力和自律换来的生活品质",
+          "以独立和自主的姿态在世界上稳稳地存在",
+          "品味生活中真正精致和美好的事物",
+          "以感恩和满足的心欣赏自己所拥有的一切"
+        ],
+        "shadow": [
+          "以物质的丰盛掩盖内心深处的孤独与空虚",
+          "将独立变成拒绝与他人联结的高墙",
+          "以奢华和享受逃避需要面对的内在工作",
+          "在舒适安逸中丧失对真正目标的追求与热情"
+        ]
+      },
+      "Numerology": "9 (The Completion: fullness, readiness, ripeness)",
+      "Astrology": "Venus in Virgo",
+      "Affirmation": "\"I know enough to be confident in my decisions.\"",
+      "Questions to Ask": [
+        "If you could not have what you want, how would you make do?",
+        "Could you make a complex task easier by breaking it down into smaller steps?",
+        "How patient are you during the learning process? With yourself? With others?"
+      ]
+    },
+    {
+      "name": "星币十",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p10.jpg",
+      "fortune_telling": [
+        "长期积累的丰盛将在家庭和物质层面全面实现",
+        "传承与遗产是当下重要的主题"
+      ],
+      "keywords": [
+        "传承",
+        "丰盛",
+        "家族",
+        "圆满"
+      ],
+      "meanings": {
+        "light": [
+          "庆祝跨越多个层面的长期丰盛与圆满",
+          "以慷慨的心建立和传承真正有价值的事物",
+          "在家庭和社群中创造持久的联结与支持",
+          "将物质的成功转化为对后代真正有意义的馈赠"
+        ],
+        "shadow": [
+          "为了维护家族或社会的体面而牺牲真实的幸福",
+          "将财富和物质遗产凌驾于情感联结之上",
+          "以传统的枷锁阻碍家庭成员真正的成长",
+          "在舒适的继承中失去独立追求的热情与勇气"
+        ]
+      },
+      "Numerology": "10 (The End: finality, completion, exhaustion)",
+      "Astrology": "Mercury in Virgo",
+      "Affirmation": "\"I keep physical and financial matters in perspective.\"",
+      "Questions to Ask": [
+        "How much stuff do I really need?",
+        "How do I feel about wealth and abundance? How do I define these terms?",
+        "How might shedding some possessions open room for growth?"
+      ]
+    },
+    {
+      "name": "星币侍从",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p11.jpg",
+      "fortune_telling": [
+        "一个关于物质、学习或职业的好消息即将到来",
+        "以踏实的学习和探索精神开启新的旅程"
+      ],
+      "keywords": [
+        "学习",
+        "踏实",
+        "探索",
+        "潜力"
+      ],
+      "meanings": {
+        "light": [
+          "以认真踏实的态度学习和掌握新的技能",
+          "对物质和现实世界保持好奇与探索的精神",
+          "以稳健的步伐将愿景一点点转化为现实",
+          "在学习的过程中保持谦逊和开放的心态"
+        ],
+        "shadow": [
+          "过度专注于学习和计划，却迟迟不付诸行动",
+          "以完美主义阻碍自己真正开始",
+          "在还没有准备好的判断中反复等待",
+          "缺乏将想法落地的实际行动力和执行能力"
+        ]
+      },
+      "Elemental": "Earth of Earth.",
+      "Affirmation": "\"I am physically and financially responsible.\"",
+      "Questions to Ask": [
+        "How can you get more financial or sexual experience without risking your livelihood or health?",
+        "How might hands-on learning play a role in your situation?",
+        "What's the most practical choice you could make?"
+      ]
+    },
+    {
+      "name": "星币骑士",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p12.jpg",
+      "fortune_telling": [
+        "以可靠和踏实的方式稳步推进重要的目标",
+        "耐心和坚持是当下最有力量的品质"
+      ],
+      "keywords": [
+        "可靠",
+        "踏实",
+        "坚持",
+        "勤奋"
+      ],
+      "meanings": {
+        "light": [
+          "以可靠、踏实的方式一步一步推进重要的目标",
+          "以坚持和勤奋建立起真正长久的成果",
+          "以负责任的态度履行每一项承诺",
+          "以稳健的方法应对需要长期投入的挑战"
+        ],
+        "shadow": [
+          "将谨慎和踏实变成拒绝改变和冒险的借口",
+          "以固执和一成不变应对需要灵活适应的情境",
+          "在过度谨慎中错失真正有价值的机遇",
+          "将工作和责任凌驾于生活中其他重要的事物之上"
+        ]
+      },
+      "Elemental": "Air of Earth.",
+      "Affirmation": "\"I temper my actions with cautious optimism.\"",
+      "Questions to Ask": [
+        "What's the difference between caution and fear?",
+        "How can I evaluate the practicality of my own ideas and methods?",
+        "How realistic are my goals?"
+      ]
+    },
+    {
+      "name": "星币王后",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p13.jpg",
+      "fortune_telling": [
+        "一位务实、慷慨而温暖的女性将带来重要影响",
+        "以滋养和实际的支持关怀身边重要的人"
+      ],
+      "keywords": [
+        "务实",
+        "滋养",
+        "慷慨",
+        "稳定"
+      ],
+      "meanings": {
+        "light": [
+          "以温暖和实际的行动滋养和支持身边的人",
+          "在物质和情感上为家庭和社群提供稳固的支持",
+          "以务实和慷慨的方式管理和分享资源",
+          "将对美好生活的热爱转化为真实可触的照料与关怀"
+        ],
+        "shadow": [
+          "以过度的物质给予替代真正的情感联结",
+          "将价值感完全建立在对他人的服务和照顾之上",
+          "在对他人的慷慨付出中忽视自己真正的需求",
+          "以实际的帮助控制他人，阻碍其真正的独立"
+        ]
+      },
+      "Elemental": "Water of Earth.",
+      "Affirmation": "\"I relish the best this world has to offer.\"",
+      "Questions to Ask": [
+        "How do I define luxury?",
+        "To what extent am I capable of reveling in sensual pleasure?",
+        "What would I have to give up in order to \"have it all?\""
+      ]
+    },
+    {
+      "name": "星币国王",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "img": "p14.jpg",
+      "fortune_telling": [
+        "一位成熟稳重、在物质和事业上颇有成就的男性将带来影响",
+        "以成熟的务实智慧引领物质层面的重要决策"
+      ],
+      "keywords": [
+        "务实",
+        "成就",
+        "稳重",
+        "慷慨"
+      ],
+      "meanings": {
+        "light": [
+          "以务实的智慧和经验引领重要的事业和财务决策",
+          "以稳重和可靠赢得他人真心的信任",
+          "以慷慨和成熟将自己的丰盛与他人共享",
+          "将长期积累的经验转化为对他人真正有价值的指引"
+        ],
+        "shadow": [
+          "将物质上的成功和权威凌驾于一切其他价值之上",
+          "以财富和地位衡量他人和自身的价值",
+          "在物质的丰盛中失去对精神成长的追求",
+          "以慷慨作为建立控制和影响力的工具"
+        ]
+      },
+      "Elemental": "Fire of Earth.",
+      "Affirmation": "\"I embody confidence and fairness.\"",
+      "Questions to Ask": [
+        "How can you handle expenses with greater confidence and maturity?",
+        "How dependable are you? How dependable would others say you are?",
+        "To what extent is a conservative viewpoint valuable? At what point does it become more of a burden than a blessing?"
+      ]
+    }
+  ]
+}

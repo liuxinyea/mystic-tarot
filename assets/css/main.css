@@ -1,0 +1,304 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   CSS Custom Properties — Design Tokens
+   ============================================================ */
+:root {
+  --color-abyss: #050505;
+  --color-emerald: #10B981;
+  --color-emerald-dim: #059669;
+  --color-gold: #C9A96E;
+  --color-gold-light: #E8C98A;
+  --color-glass: rgba(255, 255, 255, 0.04);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+  --color-glass-strong: rgba(255, 255, 255, 0.07);
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ============================================================
+   Base Reset & Global Styles
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-abyss);
+  color: #e8e8e8;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   Typography
+   ============================================================ */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #C9A96E 0%, #E8C98A 50%, #C9A96E 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+.text-emerald-gradient {
+  background: linear-gradient(135deg, #10B981 0%, #34D399 50%, #10B981 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* ============================================================
+   Glassmorphism Utilities
+   ============================================================ */
+.glass {
+  background: var(--color-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-glass-border);
+}
+
+.glass-strong {
+  background: var(--color-glass-strong);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+
+/* ============================================================
+   Emerald Glow Effects
+   ============================================================ */
+.glow-emerald {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.4), 0 0 30px rgba(16, 185, 129, 0.15);
+}
+
+.glow-emerald-sm {
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.3);
+}
+
+.glow-gold {
+  box-shadow: 0 0 15px rgba(201, 169, 110, 0.4), 0 0 30px rgba(201, 169, 110, 0.15);
+}
+
+.breathe-glow {
+  animation: breathe 3s ease-in-out infinite;
+}
+
+/* ============================================================
+   Scrollbar Styling
+   ============================================================ */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.3);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.6);
+}
+
+/* ============================================================
+   Star Field Background
+   ============================================================ */
+.star-field {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, #0a0f1e 0%, #050505 70%);
+  mask-image: radial-gradient(ellipse at center, black 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 100%);
+}
+
+/* Vignette overlay */
+.vignette {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(5, 5, 5, 0.85) 100%);
+}
+
+/* ============================================================
+   Button Styles
+   ============================================================ */
+.btn-mystic {
+  @apply relative inline-flex items-center justify-center gap-2;
+  @apply px-6 py-3 rounded-full;
+  @apply font-body font-medium text-sm tracking-wider;
+  @apply transition-all duration-300;
+  @apply border border-transparent;
+  @apply cursor-pointer select-none;
+  @apply overflow-hidden;
+}
+
+.btn-mystic::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn-primary {
+  @apply btn-mystic;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.25);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 6px 25px rgba(16, 185, 129, 0.45);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-glass {
+  @apply btn-mystic glass;
+  color: rgba(255, 255, 255, 0.85);
+  border-color: var(--color-glass-border);
+}
+
+.btn-glass:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(16, 185, 129, 0.3);
+  color: #fff;
+}
+
+/* ============================================================
+   Card Flip Animation
+   ============================================================ */
+.card-flip-container {
+  perspective: 1200px;
+}
+
+.card-flip-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-flip-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+/* ============================================================
+   Tarot Card Hover Effect
+   ============================================================ */
+.tarot-card-wrapper {
+  transition: transform 0.3s var(--transition-smooth), filter 0.3s ease;
+  cursor: pointer;
+}
+
+.tarot-card-wrapper:hover {
+  transform: translateY(-8px) scale(1.03);
+  filter: brightness(1.1);
+}
+
+.tarot-card-wrapper.selected {
+  animation: breathe 3s ease-in-out infinite;
+}
+
+/* ============================================================
+   Interpretation Panel
+   ============================================================ */
+.interpretation-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(5, 5, 5, 0.75);
+  animation: fadeIn 0.4s ease-out;
+}
+
+.typewriter-cursor::after {
+  content: '|';
+  display: inline-block;
+  animation: blink 1s step-end infinite;
+  color: var(--color-emerald);
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ============================================================
+   Loading Spinner
+   ============================================================ */
+.mystic-spinner {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(16, 185, 129, 0.2);
+  border-top-color: #10B981;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* ============================================================
+   Responsive Utilities
+   ============================================================ */
+@layer utilities {
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
