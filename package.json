@@ -28,5 +28,12 @@
   "devDependencies": {
     "@types/three": "^0.175.0",
     "typescript": "^5.8.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "sharp"
+    ]
   }
 }

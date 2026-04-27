@@ -16,28 +16,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 1. 安装 pnpm
+      # 1. 安装最新版 pnpm (v4 更加兼容 Node 24)
       - name: Install pnpm
-        uses: pnpm/action-setup@v3
+        uses: pnpm/action-setup@v4
         with:
-          version: 9 # 或者指定你本地使用的具体版本
+          version: 9
+          run_install: false # 明确手动安装，避开自动 workspace 探测
 
-      # 2. 设置 Node.js 环境并使用 pnpm 缓存
+      # 2. 设置 Node.js 24 (解决废弃警告)
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: 'pnpm'
 
-      # 3. 安装依赖
+      # 3. 安装依赖 (如果还有 packages 报错，加上 --no-frozen-lockfile 强制更新一下)
       - name: Install dependencies
         run: pnpm install
 
-      # 4. 执行静态导出
+      # 4. Nuxt 静态导出
       - name: Static HTML export
         run: pnpm nuxi generate
 
-      # 5. 解决 GitHub Pages 路径过滤问题
       - name: Add .nojekyll
         run: touch .output/public/.nojekyll
 
