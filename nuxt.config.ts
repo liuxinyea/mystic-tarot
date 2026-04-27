@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-
+  ssr: true,
   modules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
@@ -34,6 +34,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   app: {
+    baseURL: '/', // 或者 '/your-repo-name/'
+    buildAssetsDir: '/static/', // 避免 GitHub Pages 忽略以下划线开头的目录
     head: {
       title: '神秘塔罗 — MysticTarot',
       meta: [
@@ -55,15 +57,20 @@ export default defineNuxtConfig({
       ],
     },
   },
-
+  // 2. 针对 3D 动画库的优化
+  build: {
+    transpile: ['gsap', 'three', '@tresjs/client'],
+  },
+  nitro: {
+    preset: 'github-pages'
+  },
   // TresJS uses client-only rendering
   vite: {
-    optimizeDeps: {
-      include: ['three', 'gsap'],
-    },
     ssr: {
-      // Force these browser-only packages to be bundled for client only
-      noExternal: ['gsap'],
+      noExternal: ['gsap', 'three', '@tresjs/client'], // 确保这些包在 SSR 期间被正确处理
     },
+    optimizeDeps: {
+      include: ['three', 'gsap'], // 预构建提升开发体验
+    } 
   },
 })
