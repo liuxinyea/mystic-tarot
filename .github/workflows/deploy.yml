@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ] # 监听主分支代码提交
+    branches: [ main ]
 
 permissions:
   contents: read
@@ -16,20 +16,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # 1. 安装 pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9 # 或者指定你本地使用的具体版本
+
+      # 2. 设置 Node.js 环境并使用 pnpm 缓存
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 24
+          cache: 'pnpm'
 
+      # 3. 安装依赖
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
+      # 4. 执行静态导出
       - name: Static HTML export
-        run: npx nuxi generate
+        run: pnpm nuxi generate
 
-      # 关键步骤：创建 .nojekyll 文件
-      # GitHub Pages 默认会过滤下划线开头的文件夹，Nuxt 的生成文件通常包含这些，需要禁用 Jekyll 规则。
+      # 5. 解决 GitHub Pages 路径过滤问题
       - name: Add .nojekyll
         run: touch .output/public/.nojekyll
 
