@@ -54,7 +54,7 @@
             <!-- 牌图 -->
             <img
               v-if="card"
-              :src="`/cards/${card.img}`"
+              :src="`${config.app.baseURL}cards/${card.img}`"
               :alt="card.name"
               class="w-full h-full object-cover"
               :style="card.isReversed ? 'transform: rotate(180deg)' : ''"
@@ -101,6 +101,8 @@
 
 <script setup lang="ts">
 import type { CardWithOrientation } from '~/types/tarot'
+
+const config = useRuntimeConfig()
 
 const props = defineProps<{
   card?: CardWithOrientation

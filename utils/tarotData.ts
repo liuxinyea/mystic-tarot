@@ -22,7 +22,8 @@ export async function getAllCards(locale: string = 'zh'): Promise<TarotCard[]> {
     }
     _cachedCards[lang] = data.default.cards as TarotCard[]
   } else {
-    const res = await fetch(`/tarot-${lang}.json`)
+    const config = useRuntimeConfig()
+    const res = await fetch(`${config.app.baseURL}tarot-${lang}.json`)
     const data = await res.json()
     _cachedCards[lang] = data.cards as TarotCard[]
   }

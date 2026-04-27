@@ -45,7 +45,7 @@
                 :style="{ width: '56px', height: '91px' }"
               >
                 <img
-                  :src="`/cards/${card.img}`"
+                   :src="`${config.app.baseURL}cards/${card.img}`"
                   :alt="card.name"
                   class="w-full h-full object-cover"
                   :style="card.isReversed ? 'transform: rotate(180deg)' : ''"
@@ -121,7 +121,7 @@ const emit = defineEmits<{
   close: []
   readAgain: []
 }>()
-
+const config = useRuntimeConfig()
 const store = useTarotStore()
 const panelRef = ref<HTMLElement | null>(null)
 const textContainerRef = ref<HTMLElement | null>(null)
