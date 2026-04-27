@@ -83,6 +83,7 @@ export const useTarotStore = defineStore('tarot', () => {
           cards: selectedCards.value,
           spreadType: spreadType.value,
           userContext: 'my beloved wife',
+          locale: locale.value,
         }),
       })
 
@@ -125,7 +126,7 @@ export const useTarotStore = defineStore('tarot', () => {
       // 降级到本地解读
       const { getLocalInterpretation } = await import('~/utils/tarotData')
       isUsingLocalFallback.value = true
-      interpretation.value = getLocalInterpretation(selectedCards.value, spreadType.value)
+      interpretation.value = getLocalInterpretation(selectedCards.value, spreadType.value, locale.value)
     } finally {
       isAnalyzing.value = false
     }

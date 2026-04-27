@@ -1,8 +1,73 @@
 {
-  "common": {},
-  "home": {},
-  "spread": {},
-  "card": {},
-  "interpretation": {},
-  "audio": {}
+  "common": {
+    "appName": "MysticTarot",
+    "tagline": "Insight from within, light for the path",
+    "loading": "Loading...",
+    "error": "An error occurred, please try again",
+    "close": "Close",
+    "reset": "Reset",
+    "confirm": "Confirm"
+  },
+  "home": {
+    "title": "MysticTarot",
+    "subtitle": "At the intersection of stars and destiny, listen to the whispers within",
+    "startButton": "Start Reading",
+    "shuffleButton": "Shuffle",
+    "shuffling": "Shuffling...",
+    "selectPrompt": "Please select {count} cards from the deck",
+    "selectedCount": "Selected {current}/{total}",
+    "revealButton": "Reveal Spread",
+    "spreadType": "Select Spread",
+    "swipeHint": "Swipe to explore cards"
+  },
+  "spread": {
+    "single": "Single Card",
+    "singleDesc": "The most important insight for now",
+    "three": "Three Cards",
+    "threeDesc": "Past · Present · Future",
+    "celtic": "Celtic Cross",
+    "celticDesc": "Deep ten-card reading",
+    "positions": {
+      "past": "Past",
+      "present": "Present",
+      "future": "Future",
+      "situation": "Current Situation",
+      "challenge": "Challenge",
+      "foundation": "Foundation",
+      "recent": "Recent Influences",
+      "hopes": "Hopes and Fears",
+      "external": "External Influences",
+      "advice": "Advice",
+      "outcome": "Final Outcome"
+    }
+  },
+  "card": {
+    "upright": "Upright",
+    "reversed": "Reversed",
+    "majorArcana": "Major Arcana",
+    "minorArcana": "Minor Arcana",
+    "suitCups": "Cups",
+    "suitWands": "Wands",
+    "suitPentacles": "Pentacles",
+    "suitSwords": "Swords",
+    "keywords": "Keywords",
+    "meanings": "Meanings"
+  },
+  "interpretation": {
+    "title": "Tarot Interpretation",
+    "loading": "Sensing cosmic energy...",
+    "localMode": "(Local Mode)",
+    "section1": "Core Imagery",
+    "section2": "Specific Analysis",
+    "section3": "Warm Advice",
+    "readAgain": "Read Again",
+    "share": "Share Reading",
+    "poweredBy": "AI Assisted",
+    "poweredByLocal": "Based on tradition"
+  },
+  "audio": {
+    "toggle": "BGM",
+    "on": "Sound On",
+    "off": "Sound Off"
+  }
 }

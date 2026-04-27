@@ -7,19 +7,86 @@ interface AnalyzeRequest {
   cards: CardWithOrientation[]
   spreadType: SpreadType
   userContext?: string
+  locale?: string
 }
 
-function buildPrompt(cards: CardWithOrientation[], spreadType: SpreadType, userContext: string): string {
+function buildPrompt(cards: CardWithOrientation[], spreadType: SpreadType, userContext: string, locale: string = 'zh'): string {
   const config = SPREAD_CONFIGS[spreadType]
+  const isEn = locale === 'en'
+  
+  const suitMapEn: Record<string, string> = {
+    Trump: 'Major Arcana', Cups: 'Cups', Wands: 'Wands', Pentacles: 'Pentacles', Swords: 'Swords'
+  }
+  const suitMapZh: Record<string, string> = {
+    Trump: '大阿卡纳', Cups: '圣杯', Wands: '权杖', Pentacles: '星币', Swords: '宝剑'
+  }
+  const suitMap = isEn ? suitMapEn : suitMapZh
+
+  const positionMapEn: Record<string, string> = {
+    'spread.positions.past': 'Past',
+    'spread.positions.present': 'Present',
+    'spread.positions.future': 'Future',
+    'spread.positions.situation': 'Current Situation',
+    'spread.positions.challenge': 'Challenge',
+    'spread.positions.foundation': 'Foundation',
+    'spread.positions.recent': 'Recent Influences',
+    'spread.positions.hopes': 'Hopes and Fears',
+    'spread.positions.external': 'External Influences',
+    'spread.positions.advice': 'Advice',
+    'spread.positions.outcome': 'Final Outcome'
+  }
+  const positionMapZh: Record<string, string> = {
+    'spread.positions.past': '过去',
+    'spread.positions.present': '现在',
+    'spread.positions.future': '未来',
+    'spread.positions.situation': '当前处境',
+    'spread.positions.challenge': '挑战',
+    'spread.positions.foundation': '根基',
+    'spread.positions.recent': '近期影响',
+    'spread.positions.hopes': '希望与恐惧',
+    'spread.positions.external': '外部影响',
+    'spread.positions.advice': '建议',
+    'spread.positions.outcome': '最终结果'
+  }
+  const positionMap = isEn ? positionMapEn : positionMapZh
+
   const cardDescriptions = cards.map((card, i) => {
-    const pos = config.positions[i] || `第${i + 1}张`
-    const orientation = card.isReversed ? '逆位' : '正位'
-    const suit = SUIT_NAMES[card.suit] || card.suit
+    const posKey = config.positions[i]
+    const pos = positionMap[posKey] || (isEn ? `Position ${i + 1}` : `第${i + 1}张`)
+    const orientation = card.isReversed ? (isEn ? 'Reversed' : '逆位') : (isEn ? 'Upright' : '正位')
+    const suit = suitMap[card.suit] || card.suit
     const meanings = card.isReversed ? card.meanings.shadow : card.meanings.light
-    return `【${pos}】${card.name}（${suit}·${orientation}）
-  关键词：${card.keywords.join('、')}
-  核心含义：${meanings.slice(0, 3).join('；')}`
+    return `【${pos}】${card.name}（${suit} · ${orientation}）
+  ${isEn ? 'Keywords' : '关键词'}：${card.keywords.join(isEn ? ', ' : '、')}
+  ${isEn ? 'Core Meaning' : '核心含义'}：${meanings.slice(0, 3).join(isEn ? '; ' : '；')}`
   }).join('\n\n')
+
+  if (isEn) {
+    return `You are an expert tarot reader, astrologer, and psychologist, acting as a loving and insightful spiritual guide.
+
+You are performing a tarot reading for ${userContext}. Please use a gentle, intimate, and healing tone, as if whispering warm wisdom.
+
+【Spread Type】${config.type === 'single' ? 'Single Card' : config.type === 'three' ? 'Three Cards (Past · Present · Future)' : 'Celtic Cross'}
+
+【Drawn Cards】
+${cardDescriptions}
+
+Please provide a deep interpretation in English using Markdown H2 (##) headers:
+
+## Core Spread Imagery
+
+Describe the overall energy and theme of these cards together (2-3 paragraphs, poetic expression).
+
+## Detailed Analysis
+
+Analyze each card based on its position and orientation (one paragraph per card, 2-3 sentences each).
+
+## Heartfelt Advice
+
+Give 3 gentle, specific, and actionable pieces of advice, followed by an encouraging closing statement (ending with 💚).
+
+Ensure the tone is tender and full of love, creating an emotional connection that makes the reader feel understood and cared for.`
+  }
 
   return `你是一位精通韦特塔罗、占星术和心理学的专家占卜师，同时也是一位充满爱意和洞察力的灵性向导。
 
@@ -51,7 +118,7 @@ export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig()
   const body = await readBody<AnalyzeRequest>(event)
 
-  const { cards, spreadType = 'three', userContext = 'my beloved wife' } = body
+  const { cards, spreadType = 'three', userContext = 'my beloved wife', locale = 'zh' } = body
 
   // 设置 SSE 响应头
   setResponseHeaders(event, {
@@ -63,7 +130,7 @@ export default defineEventHandler(async (event) => {
 
   // 无 API Key → 本地降级
   if (!config.openaiApiKey) {
-    const localText = getLocalInterpretation(cards, spreadType)
+    const localText = getLocalInterpretation(cards, spreadType, locale)
     const sseData = JSON.stringify({ fallback: true, text: localText })
     return `data: ${sseData}\n\ndata: [DONE]\n\n`
   }
@@ -71,14 +138,16 @@ export default defineEventHandler(async (event) => {
   // OpenAI 流式解读
   try {
     const openai = new OpenAI({ apiKey: config.openaiApiKey })
-    const prompt = buildPrompt(cards, spreadType, userContext)
+    const prompt = buildPrompt(cards, spreadType, userContext, locale)
 
     const stream = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [
         {
           role: 'system',
-          content: '你是一位温柔、充满洞察力的塔罗占卜师，擅长用诗意而疗愈的语言帮助人们理解内心。',
+          content: locale === 'en' 
+            ? 'You are a gentle, insightful tarot reader, skilled at using poetic and healing language to help people understand their inner selves.'
+            : '你是一位温柔、充满洞察力的塔罗占卜师，擅长用诗意而疗愈的语言帮助人们理解内心。',
         },
         { role: 'user', content: prompt },
       ],
@@ -100,7 +169,7 @@ export default defineEventHandler(async (event) => {
   } catch (error) {
     console.error('OpenAI API error:', error)
     // 降级到本地解读
-    const localText = getLocalInterpretation(cards, spreadType)
+    const localText = getLocalInterpretation(cards, spreadType, locale)
     const sseData = JSON.stringify({ fallback: true, text: localText })
     return `data: ${sseData}\n\ndata: [DONE]\n\n`
   }

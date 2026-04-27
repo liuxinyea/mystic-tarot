@@ -40,31 +40,31 @@ export const SPREAD_CONFIGS: Record<SpreadType, SpreadConfig> = {
   single: {
     type: 'single',
     count: 1,
-    positions: ['当下'],
+    positions: ['spread.positions.present'],
   },
   three: {
     type: 'three',
     count: 3,
-    positions: ['过去', '现在', '未来'],
+    positions: ['spread.positions.past', 'spread.positions.present', 'spread.positions.future'],
   },
   celtic: {
     type: 'celtic',
     count: 10,
     positions: [
-      '当前处境', '挑战', '根基', '近期影响',
-      '希望与恐惧', '外部影响', '自我态度',
-      '建议', '希望', '最终结果',
+      'spread.positions.situation', 'spread.positions.challenge', 'spread.positions.foundation', 'spread.positions.recent',
+      'spread.positions.hopes', 'spread.positions.external', 'spread.positions.advice',
+      'spread.positions.advice', 'spread.positions.hopes', 'spread.positions.outcome',
     ],
   },
 }
 
-// 花色映射
+// 花色映射 (Keys)
 export const SUIT_NAMES: Record<string, string> = {
-  Trump: '大阿卡纳',
-  Cups: '圣杯',
-  Wands: '权杖',
-  Pentacles: '星币',
-  Swords: '宝剑',
+  Trump: 'card.majorArcana',
+  Cups: 'card.suitCups',
+  Wands: 'card.suitWands',
+  Pentacles: 'card.suitPentacles',
+  Swords: 'card.suitSwords',
 }
 
 // 判断牌的花色

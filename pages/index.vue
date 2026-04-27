@@ -25,6 +25,13 @@
 
       <!-- 右侧工具 -->
       <div class="flex items-center gap-3">
+        <!-- 语言切换 -->
+        <button
+          class="w-8 h-8 flex items-center justify-center rounded-full glass border border-white/8 text-white/60 hover:text-white/90 hover:border-white/20 transition-all text-[10px] font-bold tracking-tighter"
+          @click="toggleLocale"
+        >
+          {{ locale === 'zh' ? 'EN' : '中' }}
+        </button>
         <AudioPlayer />
         <!-- 重置按钮（非 idle 状态时显示） -->
         <transition name="fade">
@@ -210,14 +217,20 @@
 <script setup lang="ts">
 import { useTarotStore } from '~/stores/tarot'
 
+const { locale, setLocale, t } = useI18n()
 const store = useTarotStore()
+
+function toggleLocale() {
+  const nextLocale = locale.value === 'zh' ? 'en' : 'zh'
+  setLocale(nextLocale)
+}
 
 // SEO
 useSeoMeta({
-  title: '神秘塔罗 — MysticTarot',
-  description: '兼具仪式感与交互美学的塔罗牌在线抽取与 AI 解读系统',
-  ogTitle: '神秘塔罗 — MysticTarot',
-  ogDescription: '在星辰与命运的交汇处，聆听内心的低语',
+  title: () => `${t('common.appName')} — MysticTarot`,
+  description: () => t('home.subtitle'),
+  ogTitle: () => `${t('common.appName')} — MysticTarot`,
+  ogDescription: () => t('home.subtitle'),
 })
 
 async function handleShuffle() {

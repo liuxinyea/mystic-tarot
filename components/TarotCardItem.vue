@@ -66,7 +66,7 @@
               class="absolute top-2 left-2 px-1.5 py-0.5 rounded text-[9px] font-body font-medium tracking-wider"
               style="background: rgba(201,169,110,0.2); color: #C9A96E; border: 1px solid rgba(201,169,110,0.3);"
             >
-              逆位
+              {{ $t('card.reversed') }}
             </div>
             <!-- 底部名称 -->
             <div
@@ -92,7 +92,7 @@
         class="absolute -bottom-6 left-0 right-0 text-center"
       >
         <span class="text-[10px] text-white/40 tracking-widest uppercase font-body">
-          {{ positionLabel }}
+          {{ $t(positionLabel) }}
         </span>
       </div>
     </transition>

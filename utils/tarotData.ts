@@ -64,36 +64,58 @@ export async function generateShuffledDeck(locale: string = 'zh'): Promise<CardW
 // ============================================================
 // 本地解读生成器（无 API Key 时的降级方案）
 // ============================================================
-function getLocalInterpretation(cards: CardWithOrientation[], spreadType: SpreadType): string {
+function getLocalInterpretation(cards: CardWithOrientation[], spreadType: SpreadType, locale: string = 'zh'): string {
   const config: SpreadConfig = SPREAD_CONFIGS[spreadType]
-  const suitMap: Record<string, string> = SUIT_NAMES
+  const isEn = locale === 'en'
+
+  const suitMapEn: Record<string, string> = {
+    Trump: 'Major Arcana', Cups: 'Cups', Wands: 'Wands', Pentacles: 'Pentacles', Swords: 'Swords'
+  }
+  const suitMapZh: Record<string, string> = {
+    Trump: '大阿卡纳', Cups: '圣杯', Wands: '权杖', Pentacles: '星币', Swords: '宝剑'
+  }
+  const suitMap = isEn ? suitMapEn : suitMapZh
 
   let text = ''
 
   // Section 1: 核心意象
-  text += `## 牌阵核心意象\n\n`
+  const section1Title = isEn ? 'Core Spread Imagery' : '牌阵核心意象'
+  text += `## ${section1Title}\n\n`
+  
   const cardSummaries = cards.map((card, i) => {
-    const pos = config.positions[i] || `第${i + 1}张`
-    const orientation = card.isReversed ? '逆位' : '正位'
+    const pos = config.positions[i] || (isEn ? `Position ${i + 1}` : `第${i + 1}张`)
+    const orientation = card.isReversed 
+      ? (isEn ? 'Reversed' : '逆位') 
+      : (isEn ? 'Upright' : '正位')
     const suit = suitMap[card.suit] || card.suit
-    return `**${pos}**：${card.name}（${suit}·${orientation}）\n关键词：${card.keywords.slice(0, 3).join('、')}`
+    const keywordsLabel = isEn ? 'Keywords' : '关键词'
+    
+    return `**${pos}**：${card.name}（${suit} · ${orientation}）\n${keywordsLabel}：${card.keywords.slice(0, 3).join(isEn ? ', ' : '、')}`
   })
   text += cardSummaries.join('\n\n') + '\n\n'
 
   // Section 2: 针对性分析
-  text += `## 针对性分析\n\n`
+  const section2Title = isEn ? 'Detailed Analysis' : '针对性分析'
+  text += `## ${section2Title}\n\n`
+  
   cards.forEach((card, i) => {
-    const pos = config.positions[i] || `第${i + 1}张`
+    const pos = config.positions[i] || (isEn ? `Position ${i + 1}` : `第${i + 1}张`)
     const meanings = card.isReversed ? card.meanings.shadow : card.meanings.light
-    const meaningText = meanings.slice(0, 2).join('；')
+    const meaningText = meanings.slice(0, 2).join(isEn ? '; ' : '；')
     text += `**${pos}** — ${card.name}\n${meaningText}。\n\n`
   })
 
   // Section 3: 暖心建议
-  text += `## 暖心建议\n\n`
+  const section3Title = isEn ? 'Heartfelt Advice' : '暖心建议'
+  text += `## ${section3Title}\n\n`
+  
   const allFortune = cards.flatMap(c => c.fortune_telling).slice(0, 3)
   text += allFortune.map(f => `• ${f}`).join('\n')
-  text += '\n\n愿星辰指引你找到内心的答案，每一张牌都是宇宙对你的温柔回应。💚'
+  
+  const footer = isEn 
+    ? '\n\nMay the stars guide you to your inner answers. Every card is a gentle response from the universe. 💚'
+    : '\n\n愿星辰指引你找到内心的答案，每一张牌都是宇宙对你的温柔回应。💚'
+  text += footer
 
   return text
 }

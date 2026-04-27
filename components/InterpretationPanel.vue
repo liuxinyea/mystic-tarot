@@ -58,7 +58,7 @@
                 </div>
               </div>
               <span class="text-[9px] text-white/30 font-body tracking-wider text-center">
-                {{ store.spreadPositions[i] }}
+                {{ $t(store.spreadPositions[i]) }}
               </span>
               <span
                 class="text-[8px] px-1 rounded"
@@ -122,6 +122,7 @@ const emit = defineEmits<{
   readAgain: []
 }>()
 const config = useRuntimeConfig()
+const { t } = useI18n()
 const store = useTarotStore()
 const panelRef = ref<HTMLElement | null>(null)
 const textContainerRef = ref<HTMLElement | null>(null)
@@ -176,11 +177,12 @@ const canShare = computed(() =>
 )
 
 async function shareReading() {
-  const cards = store.selectedCards.map(c => `${c.name} (${c.isReversed ? '逆位' : '正位'})`).join(' · ')
+  const orientationStr = (isReversed: boolean) => isReversed ? t('card.reversed') : t('card.upright')
+  const cards = store.selectedCards.map(c => `${c.name} (${orientationStr(c.isReversed)})`).join(' · ')
   try {
     await navigator.share({
-      title: '我的塔罗解读',
-      text: `我抽到了：${cards}\n\n${store.interpretation.slice(0, 200)}...`,
+      title: t('interpretation.title'),
+      text: `${t('interpretation.title')} - ${cards}\n\n${store.interpretation.slice(0, 200)}...`,
     })
   } catch {
     // 用户取消

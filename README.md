@@ -1,5 +1,7 @@
 # MysticTarot — 兼具仪式感与交互美学的 AI 塔罗占卜系统
 
+中文 | [English](./README_en.md)
+
 ![MysticTarot Preview](./public/image.png)
 
 MysticTarot 是一个基于 **Nuxt 3**、**Three.js (TresJS)** 和 **OpenAI** 构建的高级在线塔罗占卜 Web 应用。它旨在通过深邃的暗黑美学、细腻的 3D 交互动画以及深度的 AI 解读，为用户提供极具仪式感的探索内心之旅。
@@ -55,7 +57,7 @@ pnpm dev
 ```text
 ├── assets/           # 静态资源、全局样式及原始数据
 ├── components/       # 可复用 Vue 组件 (3D 场景、UI 交互)
-├── i18n/locales/     # 多语言翻译文件
+├── locales/          # 多语言翻译文件
 ├── pages/            # 页面路由 (核心逻辑位于 index.vue)
 ├── public/           # 静态托管资源 (牌面图片、JSON 数据库)
 ├── server/api/       # Nitro 后端接口 (AI 解读 SSE)
