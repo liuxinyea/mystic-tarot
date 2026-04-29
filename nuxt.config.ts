@@ -34,8 +34,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   app: {
-    baseURL: './', // 或者 '/your-repo-name/'
-    buildAssetsDir: '/static/', // 避免 GitHub Pages 忽略以下划线开头的目录
+    baseURL: '/mystic-tarot/', // GitHub Pages 部署路径
+    buildAssetsDir: 'static/', // 避免 GitHub Pages 忽略以下划线开头的目录
     head: {
       title: '神秘塔罗 — MysticTarot',
       meta: [
