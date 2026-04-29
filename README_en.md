@@ -2,7 +2,7 @@
 
 [中文版](./README.md) | English
 
-![MysticTarot Preview](./public/image.png)
+![MysticTarot Preview](./public/imageEn.png)
 
 MysticTarot is a premium online tarot reading web application built with **Nuxt 3**, **Three.js (TresJS)**, and **OpenAI**. It aims to provide users with a ritualistic journey of self-exploration through deep dark aesthetics, delicate 3D interactive animations, and profound AI interpretations.
 
@@ -74,11 +74,9 @@ Contributions are welcome! Whether it's UI optimization, new spread suggestions,
 
 This project is open-sourced under the [MIT License](LICENSE).
 
-## ☕ Support
+## 🌟 Support
 
-If you find this project helpful or like the design, consider buying the author a coffee!
-
-<img src="./public/weiPay.png" width="200px" alt="WeChat Pay" />
+If you find this project helpful or like the design, please consider giving it a **Star** on GitHub! Your support is the greatest encouragement for the author. 💚
 
 ---
 *May the stars guide you to your inner answers. 💚*
